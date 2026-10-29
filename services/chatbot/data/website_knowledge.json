@@ -1,0 +1,1557 @@
+{
+  "website": {
+    "name": "MSBSVET - Maharashtra State Board of Skill, Vocational Education and Training",
+    "name_mr": "महाराष्ट्र राज्य कौशल्य, व्यवसाय शिक्षण व प्रशिक्षण मंडळ",
+    "url": "/React/Public/Home",
+    "total_cataloged_routes": 155
+  },
+  "pages": [
+    {
+      "title": "Home Page",
+      "title_mr": "मुख्यपृष्ठ",
+      "url": "/React/Public/Home",
+      "requires_auth": false,
+      "category": "Public",
+      "description": "Main landing page of MSBSVET website. News, circulars, quick links, statistics, and main portal links.",
+      "description_mr": "MSBSVET चे अधिकृत मुख्यपृष्ठ. ताज्या बातम्या, परिपत्रके, आकडेवारी आणि मुख्य सेवांचे दुवे."
+    },
+    {
+      "title": "Vocational Courses",
+      "title_mr": "व्यावसायिक अभ्यासक्रम",
+      "url": "/React/Public/courses",
+      "requires_auth": false,
+      "category": "Public",
+      "description": "Browse all approved vocational training courses by sector, duration, eligibility, and curriculum.",
+      "description_mr": "मान्यताप्राप्त सर्व व्यावसायिक अभ्यासक्रमांची यादी. क्षेत्र, कालावधी आणि पात्रतेनुसार शोधा."
+    },
+    {
+      "title": "Short Term Training (STT) Courses",
+      "title_mr": "अल्पमुदत प्रशिक्षण (STT) कोर्सेस",
+      "url": "/React/Public/coursesSTT",
+      "requires_auth": false,
+      "category": "Public",
+      "description": "List of Short Term Training (STT) and skill development certification courses.",
+      "description_mr": "अल्पमुदत कौशल्य विकास (STT) आणि प्रमाणपत्र अभ्यासक्रमांची माहिती."
+    },
+    {
+      "title": "Affiliated Institutes Directory",
+      "title_mr": "संलग्न संस्था निर्देशिका",
+      "url": "/React/Public/institutes",
+      "requires_auth": false,
+      "category": "Public",
+      "description": "Search affiliated training institutes and colleges across Maharashtra by district, taluka, and course.",
+      "description_mr": "महाराष्ट्रातील सर्व संलग्न संस्था, आयटीआय आणि प्रशिक्षण केंद्रांची जिल्हावार यादी."
+    },
+    {
+      "title": "Certificate Verification",
+      "title_mr": "प्रमाणपत्र पडताळणी",
+      "url": "/React/Public/CertificateVerification",
+      "requires_auth": false,
+      "category": "Public",
+      "description": "Official online verification of MSBSVET vocational certificates and examination marks.",
+      "description_mr": "MSBSVET व्यवसाय शिक्षण प्रमाणपत्रांची अधिकृत ऑनलाइन पडताळणी."
+    },
+    {
+      "title": "Promoting Organization Registration",
+      "title_mr": "संस्था / प्रवर्तक संस्था नोंदणी",
+      "url": "/React/Public/PromotingOrganizationRegistration",
+      "requires_auth": false,
+      "category": "Public",
+      "description": "Online registration portal for trusts, societies, and promoting organizations applying for new institute affiliation.",
+      "description_mr": "नवीन संस्था संलग्नतेसाठी ट्रस्ट, संस्था आणि प्रवर्तक नोंदणी अर्ज."
+    },
+    {
+      "title": "Candidate Registration",
+      "title_mr": "उमेदवार नोंदणी",
+      "url": "/React/candidate/register",
+      "requires_auth": false,
+      "category": "Candidate",
+      "description": "Registration form for students and candidates enrolling in MSBSVET vocational courses.",
+      "description_mr": "MSBSVET कोर्सेसमध्ये प्रवेश घेण्यासाठी नवीन विद्यार्थी / उमेदवार नोंदणी अर्ज."
+    },
+    {
+      "title": "Staff Registration",
+      "title_mr": "कर्मचारी / शिक्षक नोंदणी",
+      "url": "/React/staff/register",
+      "requires_auth": false,
+      "category": "Staff",
+      "description": "Registration form for instructors, teachers, and staff members of affiliated institutes.",
+      "description_mr": "संस्थेतील शिक्षक, प्रशिक्षक आणि कर्मचाऱ्यांसाठी अधिकृत नोंदणी पृष्ठ."
+    },
+    {
+      "title": "Sign In / Unified Login",
+      "title_mr": "लॉगिन पृष्ठ",
+      "url": "/React/auth/signin",
+      "requires_auth": false,
+      "category": "Auth",
+      "description": "Unified secure login portal for Candidates, Staff, Institutes, DVET Officers, and Board Administrators.",
+      "description_mr": "विद्यार्थी, कर्मचारी, संस्था आणि अधिकाऱ्यांसाठी केंद्रीकृत लॉगिन पृष्ठ."
+    },
+    {
+      "title": "Account Recovery / Forgot Password",
+      "title_mr": "खाते पुनर्प्राप्ती / पासवर्ड रीसेट",
+      "url": "/React/AccountRecovery",
+      "requires_auth": false,
+      "category": "Auth",
+      "description": "Recover lost account, reset candidate or institute password using registered mobile or email.",
+      "description_mr": "पासवर्ड विसरल्यास मोबाईल किंवा ईमेलद्वारे पासवर्ड रीसेट आणि खाते पुनर्प्राप्ती."
+    },
+    {
+      "title": "Exam Circulars & Notifications",
+      "title_mr": "परीक्षा परिपत्रके व सूचना",
+      "url": "/React/Public/ExamCircular",
+      "requires_auth": false,
+      "category": "Public",
+      "description": "Latest official notifications, government resolutions, and exam circulars issued by MSBSVET.",
+      "description_mr": "मंडळाने जारी केलेली परीक्षा परिपत्रके, जीआर आणि अधिकृत सूचना."
+    },
+    {
+      "title": "Exam Pattern & Marking Scheme",
+      "title_mr": "परीक्षा पद्धती व गुणपद्धती",
+      "url": "/React/Public/ExamPattern",
+      "requires_auth": false,
+      "category": "Public",
+      "description": "Detailed pattern of examination, practical assessments, theory marks, and passing criteria.",
+      "description_mr": "लेखी आणि प्रात्यक्षिक परीक्षा पद्धती, गुणदान योजना आणि उत्तीर्ण निकष."
+    },
+    {
+      "title": "Exam Timetable & Schedule",
+      "title_mr": "परीक्षा वेळापत्रक",
+      "url": "/React/Public/ExamTimeTable",
+      "requires_auth": false,
+      "category": "Public",
+      "description": "Annual and semester vocational examination timetable, dates, and session timing.",
+      "description_mr": "वार्षिक आणि सत्र परीक्षांचे अधिकृत वेळापत्रक, दिनांक आणि वेळ."
+    },
+    {
+      "title": "Downloads, Circulars & Handbooks",
+      "title_mr": "डाऊनलोड्स, हस्तपुस्तिका व अर्ज",
+      "url": "/React/Public/LegitDownload",
+      "requires_auth": false,
+      "category": "Public",
+      "description": "Download affiliation handbooks, syllabus copies, government circulars, and official forms.",
+      "description_mr": "संलग्नता नियमावली, अभ्यासक्रम पुस्तिका, शासन निर्णय आणि विविध अधिकृत अर्ज डाउनलोड करा."
+    },
+    {
+      "title": "Online Grievance Complaint Registration",
+      "title_mr": "तक्रार नोंदणी (Grievance)",
+      "url": "/React/Public/register-complaint",
+      "requires_auth": false,
+      "category": "Public",
+      "description": "Register online student, parent, or institute grievance/complaint directly with MSBSVET Board.",
+      "description_mr": "विद्यार्थी किंवा पालकांसाठी मंडळाकडे थेट ऑनलाइन तक्रार नोंदणी."
+    },
+    {
+      "title": "Grievance Complaint Status",
+      "title_mr": "तक्रार निवारण स्थिती",
+      "url": "/React/Public/complaint-status",
+      "requires_auth": false,
+      "category": "Public",
+      "description": "Check real-time status and resolution of previously filed grievance complaints.",
+      "description_mr": "नोंदवलेल्या तक्रारीची सद्यस्थिती आणि निवारण अहवाल तपासा."
+    },
+    {
+      "title": "About MSBSVET Board",
+      "title_mr": "मंडळाविषयी माहिती",
+      "url": "/React/Public/AboutBoard",
+      "requires_auth": false,
+      "category": "Public",
+      "description": "History, objectives, structure, and statutory background of Maharashtra State Board of Skill Development.",
+      "description_mr": "महाराष्ट्र राज्य कौशल्य, व्यवसाय शिक्षण व प्रशिक्षण मंडळाची स्थापना, इतिहास आणि कार्यप्रणाली."
+    },
+    {
+      "title": "Vision & Mission",
+      "title_mr": "दृष्टिक्षेप व ध्येय",
+      "url": "/React/Public/Vision",
+      "requires_auth": false,
+      "category": "Public",
+      "description": "Vision, mission, and long-term skill enhancement goals of the Maharashtra State Board.",
+      "description_mr": "मंडळाचे ध्येय, दूरदृष्टी आणि कौशल्य विकासाची उद्दिष्टे."
+    },
+    {
+      "title": "Governing Board & Council",
+      "title_mr": "नियामक मंडळ व परिषद",
+      "url": "/React/Public/GoverningBoard",
+      "requires_auth": false,
+      "category": "Public",
+      "description": "Composition of the MSBSVET Governing Board, authorities, and executive council.",
+      "description_mr": "मंडळाचे नियामक मंडळ, सन्माननीय सदस्य आणि कार्यकारी परिषद."
+    },
+    {
+      "title": "Right to Information (RTI)",
+      "title_mr": "माहिती अधिकार (RTI)",
+      "url": "/React/Public/RTI",
+      "requires_auth": false,
+      "category": "Public",
+      "description": "Public Information Officers, Appellate Authorities, and RTI Act provisions for MSBSVET.",
+      "description_mr": "माहिती अधिकार अधिनियम अंतर्गत जनमाहिती अधिकारी व अपिलीय प्राधिकाऱ्यांची माहिती."
+    },
+    {
+      "title": "Citizen Charter",
+      "title_mr": "नागरिक सनद",
+      "url": "/React/Public/CitizenCharter",
+      "requires_auth": false,
+      "category": "Public",
+      "description": "Citizen charter outlining service delivery timelines, commitments, and standards.",
+      "description_mr": "मंडळाची नागरिक सनद - सेवांची वेळेत पूर्तता आणि मानके."
+    },
+    {
+      "title": "Unauthorized Institutes Alert",
+      "title_mr": "अनधिकृत संस्थांची यादी",
+      "url": "/React/Public/UnauthorizedInstitutes",
+      "requires_auth": false,
+      "category": "Public",
+      "description": "Warning list of unauthorized and non-affiliated institutes operating without MSBSVET approval.",
+      "description_mr": "मंडळाची मान्यता नसलेल्या अनधिकृत संस्थांची जाहीर चेतावणी यादी."
+    },
+    {
+      "title": "Contact Us & Helpline",
+      "title_mr": "संपर्क व मदत केंद्र",
+      "url": "/React/Public/ContactUs",
+      "requires_auth": false,
+      "category": "Public",
+      "description": "Head office address, telephone helpline numbers, email support, and location map.",
+      "description_mr": "मुख्यालयाचा पत्ता, दूरध्वनी हेल्पलाइन क्रमांक, ईमेल आणि संपर्क माहिती."
+    },
+    {
+      "title": "Student Success Stories",
+      "title_mr": "यशस्वी विद्यार्थ्यांच्या यशोगाथा",
+      "url": "/React/Public/success-stories-publish",
+      "requires_auth": false,
+      "category": "Public",
+      "description": "Inspirational success stories of MSBSVET vocational alumni, entrepreneurs, and achievers.",
+      "description_mr": "व्यवसाय शिक्षणातून स्वावलंबी झालेल्या यशस्वी विद्यार्थ्यांच्या यशोगाथा."
+    },
+    {
+      "title": "Candidate Dashboard",
+      "title_mr": "उमेदवार डॅशबोर्ड",
+      "url": "/React/Candidate/dashboard",
+      "requires_auth": true,
+      "category": "Candidate",
+      "description": "Personalized student dashboard: view enrolled course, attendance, hall ticket, and exam results.",
+      "description_mr": "विद्यार्थी डॅशबोर्ड: प्रवेशित कोर्स, हजेरी, हॉल तिकीट आणि परीक्षेचा निकाल पहा."
+    },
+    {
+      "title": "Candidate Admission Application Form",
+      "title_mr": "प्रवेश अर्ज (Application Form)",
+      "url": "/React/Candidate/ApplicationForm",
+      "requires_auth": true,
+      "category": "Candidate",
+      "description": "Complete student admission profile, documents upload, and course enrollment application.",
+      "description_mr": "विद्यार्थी प्रवेश प्रोफाइल, कागदपत्रे अपलोड आणि अर्ज भरणे."
+    },
+    {
+      "title": "Candidate Results & Certificates",
+      "title_mr": "निकाल व प्रमाणपत्र डाऊनलोड",
+      "url": "/React/Candidate/ResultandCertificate",
+      "requires_auth": true,
+      "category": "Candidate",
+      "description": "View vocational examination marksheet, grade card, and download e-certificates.",
+      "description_mr": "परीक्षेचे गुणपत्रक, ग्रेड कार्ड आणि अधिकृत ई-प्रमाणपत्र डाउनलोड करा."
+    },
+    {
+      "title": "Candidate Attendance Dashboard",
+      "title_mr": "विद्यार्थी हजेरी डॅशबोर्ड",
+      "url": "/React/Candidate/AttendanceDashboard",
+      "requires_auth": true,
+      "category": "Candidate",
+      "description": "View biometric and classroom monthly attendance percentage and eligibility for examinations.",
+      "description_mr": "बायोमेट्रिक आणि वर्ग हजेरीची टक्केवारी व परीक्षेसाठी पात्रता तपासा."
+    },
+    {
+      "title": "Candidate Fee & Payment History",
+      "title_mr": "फी माहिती व पावती इतिहास",
+      "url": "/React/Candidate/TransactionHistory",
+      "requires_auth": true,
+      "category": "Candidate",
+      "description": "Candidate fee payment status, transaction reference numbers, and download receipts.",
+      "description_mr": "विद्यार्थी भरलेली फी, व्यवहार इतिहास आणि ऑनलाइन पावत्या डाऊनलोड करा."
+    },
+    {
+      "title": "Academisthan Learning Portal",
+      "title_mr": "अकादमिस्थान ई-लर्निंग",
+      "url": "/React/Candidate/Academisthan",
+      "requires_auth": true,
+      "category": "Candidate",
+      "description": "Digital learning platform for video lectures, e-content, study material, and online tests.",
+      "description_mr": "व्हिडिओ लेक्चर्स, ई-पुस्तके, अभ्यास साहित्य आणि ऑनलाइन सराव चाचणी पोर्टल."
+    },
+    {
+      "title": "Basic Computer Literacy (BCLS) Portal",
+      "title_mr": "मूलभूत संगणक साक्षरता (BCLS)",
+      "url": "/React/Candidate/BCLS",
+      "requires_auth": true,
+      "category": "Candidate",
+      "description": "Course modules, assessments, and certificate generation for Basic Computer Literacy Scheme.",
+      "description_mr": "मूलभूत संगणक साक्षरता प्रमाणपत्र आणि अभ्यासक्रम मॉड्युल्स."
+    },
+    {
+      "title": "Candidate Change Password",
+      "title_mr": "पासवर्ड बदला",
+      "url": "/React/Candidate/ChangePassword",
+      "requires_auth": true,
+      "category": "Candidate",
+      "description": "Change candidate portal login password securely.",
+      "description_mr": "उमेदवार लॉगिन पासवर्ड सुरक्षितपणे बदला."
+    },
+    {
+      "title": "Candidate Security Questions",
+      "title_mr": "सुरक्षा प्रश्न बदला",
+      "url": "/React/Candidate/ChangeSecurityQuestion",
+      "requires_auth": true,
+      "category": "Candidate",
+      "description": "Update recovery security question and answers for password retrieval.",
+      "description_mr": "पासवर्ड पुनर्प्राप्तीसाठी सुरक्षा प्रश्न आणि उत्तरे अद्ययावत करा."
+    },
+    {
+      "title": "Examination Hall Ticket / Admit Card",
+      "title_mr": "परीक्षेचे हॉल तिकीट / प्रवेशपत्र",
+      "url": "/React/Exam/HallTicket",
+      "requires_auth": true,
+      "category": "Exam",
+      "description": "Download and print vocational exam hall ticket with candidate photo, seat number, and center details.",
+      "description_mr": "परीक्षेचे हॉल तिकीट डाऊनलोड करा (बैठक क्रमांक, केंद्र आणि वेळापत्रकासह)."
+    },
+    {
+      "title": "Examination Marks & Result Publishing",
+      "title_mr": "परीक्षा निकाल व गुणपत्रिका",
+      "url": "/React/Exam/ResultAndCertificate",
+      "requires_auth": true,
+      "category": "Exam",
+      "description": "Official examination result statements, candidate marks, and result registers.",
+      "description_mr": "परीक्षा निकाल, गुणतक्ता आणि अधिकृत निकाल पत्रक."
+    },
+    {
+      "title": "Result Correction Request",
+      "title_mr": "निकाल / गुण दुरुस्ती अर्ज",
+      "url": "/React/Exam/ResultCorrection",
+      "requires_auth": true,
+      "category": "Exam",
+      "description": "Submit application for name correction, mark totaling review, or marksheet re-issuance.",
+      "description_mr": "नावातील दुरुस्ती, गुणांची पुनर्मोजणी किंवा सुधारित गुणपत्रिकेसाठी अर्ज."
+    },
+    {
+      "title": "Exam Center Mapping",
+      "title_mr": "परीक्षा केंद्र वाटप",
+      "url": "/React/Exam/ExamCenterMapping",
+      "requires_auth": true,
+      "category": "Exam",
+      "description": "View allocated examination centers and seat capacity allocation for institutes.",
+      "description_mr": "संस्थांना वाटप केलेली परीक्षा केंद्रे आणि बैठक क्षमता."
+    },
+    {
+      "title": "Exam Seating Arrangement Details",
+      "title_mr": "बैठक व्यवस्था तपशील",
+      "url": "/React/SeatingArrangementDetails",
+      "requires_auth": false,
+      "category": "Exam",
+      "description": "Classroom-wise and roll-number-wise exam seating arrangement charts.",
+      "description_mr": "परीक्षा हॉल आणि वर्गांनुसार विद्यार्थ्यांची बैठक व्यवस्था यादी."
+    },
+    {
+      "title": "Check Admission Application Status",
+      "title_mr": "प्रवेश अर्ज स्थिती तपासा",
+      "url": "/React/Admission/CheckApplicationID",
+      "requires_auth": true,
+      "category": "Admission",
+      "description": "Track admission application status by Application ID or candidate mobile number.",
+      "description_mr": "अर्ज क्रमांक किंवा मोबाईल नंबर टाकून प्रवेश अर्जाची सद्यस्थिती तपासा."
+    },
+    {
+      "title": "Print Admission Allotment Letter",
+      "title_mr": "प्रवेश पत्र (Allotment Letter) प्रिंट करा",
+      "url": "/React/Admission/PrintAdmissionLetter",
+      "requires_auth": true,
+      "category": "Admission",
+      "description": "Print official candidate admission confirmation letter for institute submission.",
+      "description_mr": "अधिकृत प्रवेश वाटप पत्र (Allotment Letter) डाऊनलोड व प्रिंट करा."
+    },
+    {
+      "title": "Admissions Pending Approval",
+      "title_mr": "मान्यतेसाठी प्रलंबित प्रवेश यादी",
+      "url": "/React/Admission/CandidateListPendingForApproval",
+      "requires_auth": true,
+      "category": "Admission",
+      "description": "Review candidate admissions pending DVETO or Board verification and approval.",
+      "description_mr": "मंडळाच्या आणि अधिकाऱ्यांच्या मान्यतेसाठी प्रलंबित विद्यार्थ्यांची यादी."
+    },
+    {
+      "title": "Institute Dashboard",
+      "title_mr": "संस्था डॅशबोर्ड",
+      "url": "/React/institute/dashboard",
+      "requires_auth": true,
+      "category": "Institute",
+      "description": "Institute administration portal for courses, admissions, batch management, and fee submission.",
+      "description_mr": "संस्था व्यवस्थापन डॅशबोर्ड: कोर्सेस, प्रवेश, तुकड्या आणि फी व्यवस्थापन."
+    },
+    {
+      "title": "Institute Profile & Infrastructure",
+      "title_mr": "संस्था प्रोफाइल व पायाभूत सुविधा",
+      "url": "/React/institute/profile",
+      "requires_auth": true,
+      "category": "Institute",
+      "description": "Manage institute campus details, land ownership, building layout, and approved trades.",
+      "description_mr": "संस्थेची इमारत, जमीन, कार्यशाळा आणि पायाभूत सुविधांची माहिती."
+    },
+    {
+      "title": "Approved Courses in Institute",
+      "title_mr": "संस्थेतील मान्यताप्राप्त कोर्सेस",
+      "url": "/React/institute/Approvedcourses",
+      "requires_auth": true,
+      "category": "Institute",
+      "description": "List of currently sanctioned vocational courses and intake capacities for the institute.",
+      "description_mr": "संस्थेला मंजूर असलेले व्यवसाय अभ्यासक्रम आणि विद्यार्थी प्रवेश क्षमता."
+    },
+    {
+      "title": "Institute Batch Management",
+      "title_mr": "तुकडी (Batch) व्यवस्थापन",
+      "url": "/React/institute/Batches",
+      "requires_auth": true,
+      "category": "Institute",
+      "description": "Create, assign, and manage candidate batches, academic schedules, and shifts.",
+      "description_mr": "विद्यार्थ्यांच्या तुकड्या (Batches), वेळ आणि वेळापत्रक व्यवस्थापन."
+    },
+    {
+      "title": "Register Candidates by Institute",
+      "title_mr": "संस्थेद्वारे विद्यार्थी नोंदणी",
+      "url": "/React/institute/RegisterCandidates",
+      "requires_auth": true,
+      "category": "Institute",
+      "description": "Direct student enrollment and batch allocation module for institute administrators.",
+      "description_mr": "संस्थेमार्फत थेट नवीन विद्यार्थ्यांची नोंदणी व तुकडी वाटप."
+    },
+    {
+      "title": "Institute Inspection Request",
+      "title_mr": "संस्था तपासणी (Inspection) विनंती",
+      "url": "/React/institute/InspectionRequest",
+      "requires_auth": true,
+      "category": "Institute",
+      "description": "Apply for official Board inspection for new course affiliation or unit expansion.",
+      "description_mr": "नवीन अभ्यासक्रम संलग्नता किंवा विस्तारासाठी मंडळाकडे तपासणी अर्ज सादर करा."
+    },
+    {
+      "title": "Promoting Organization Dashboard",
+      "title_mr": "प्रवर्तक संस्था डॅशबोर्ड",
+      "url": "/React/promotingorganization/dashboard",
+      "requires_auth": true,
+      "category": "PromotingOrg",
+      "description": "Dashboard for registered trusts and societies overseeing affiliated institutions.",
+      "description_mr": "संस्था चालक ट्रस्ट व सोसायटीसाठी अधिकृत व्यवस्थापन डॅशबोर्ड."
+    },
+    {
+      "title": "Associated Institutes under Trust",
+      "title_mr": "ट्रस्ट अंतर्गत संलग्न संस्था",
+      "url": "/React/promotingorganization/AssociatedInstitutes",
+      "requires_auth": true,
+      "category": "PromotingOrg",
+      "description": "Overview and status of all colleges and training centers run by the promoting organization.",
+      "description_mr": "एकाच संस्थेमार्फत चालवल्या जाणाऱ्या सर्व संलग्न संस्थांची यादी व स्थिती."
+    },
+    {
+      "title": "Master Reports List",
+      "title_mr": "सर्व अहवाल यादी (Reports List)",
+      "url": "/React/Reports/ReportsList",
+      "requires_auth": true,
+      "category": "Reports",
+      "description": "Comprehensive central directory of all administrative, statistical, and exam reports.",
+      "description_mr": "प्रशासकीय, सांख्यिकी आणि परीक्षा विषयक सर्व अहवालांची मुख्य सूची."
+    },
+    {
+      "title": "Board Examination Gazette Report",
+      "title_mr": "बोर्ड परीक्षा गॅझेट अहवाल",
+      "url": "/React/Reports/ReportGazette",
+      "requires_auth": true,
+      "category": "Reports",
+      "description": "Official Board examination gazette report containing full marks and result sheets.",
+      "description_mr": "सर्व उत्तीर्ण व अनुत्तीर्ण विद्यार्थ्यांचा अधिकृत परीक्षा गॅझेट अहवाल."
+    },
+    {
+      "title": "Admitted Candidates Report",
+      "title_mr": "प्रवेशित विद्यार्थ्यांचा अहवाल",
+      "url": "/React/Reports/AdmittedCandidateList",
+      "requires_auth": true,
+      "category": "Reports",
+      "description": "Detailed report of all officially admitted and verified candidates across Maharashtra.",
+      "description_mr": "महाराष्ट्रभरातील सर्व प्रवेश निश्चित झालेल्या विद्यार्थ्यांची यादी."
+    },
+    {
+      "title": "Approved Candidates List",
+      "title_mr": "मंजूर विद्यार्थ्यांची यादी",
+      "url": "/React/Reports/ApprovedCandidateList",
+      "requires_auth": true,
+      "category": "Reports",
+      "description": "Report of candidates whose enrollment and eligibility have been verified and approved.",
+      "description_mr": "पात्रता तपासणी पूर्ण होऊन मंजूर झालेल्या विद्यार्थ्यांची यादी."
+    },
+    {
+      "title": "Rejected Candidates Report",
+      "title_mr": "नामंजूर अर्जांचा अहवाल",
+      "url": "/React/Reports/RejectedCandidateList",
+      "requires_auth": true,
+      "category": "Reports",
+      "description": "List of rejected candidate admission applications with documented rejection reasons.",
+      "description_mr": "त्रुटींमुळे नामंजूर करण्यात आलेल्या अर्जांची कारणानिहाय यादी."
+    },
+    {
+      "title": "Cancelled Candidates Report",
+      "title_mr": "रद्द झालेल्या प्रवेशांची यादी",
+      "url": "/React/Reports/CancelledCandidateList",
+      "requires_auth": true,
+      "category": "Reports",
+      "description": "Report of cancelled student admissions and vacated course seats.",
+      "description_mr": "प्रवेश रद्द झालेल्या विद्यार्थ्यांची व रिक्त जागांची माहिती."
+    },
+    {
+      "title": "ITI Principal & Institute Details Report",
+      "title_mr": "प्राचार्य व संस्था तपशील अहवाल",
+      "url": "/React/Reports/ITIPrincipalDetailsReport",
+      "requires_auth": true,
+      "category": "Reports",
+      "description": "Directory report of all ITI Principals, contact details, and institute management data.",
+      "description_mr": "सर्व आयटीआय प्राचार्य, संपर्क क्रमांक व व्यवस्थापनाचा तपशील अहवाल."
+    },
+    {
+      "title": "DVET Head Office Dashboard",
+      "title_mr": "डीव्हीईटी (DVET) मुख्यालयाचा डॅशबोर्ड",
+      "url": "/React/DVETO/Dashboard",
+      "requires_auth": true,
+      "category": "Authority",
+      "description": "High-level administrative console for Directorate of Vocational Education & Training officers.",
+      "description_mr": "व्यवसाय शिक्षण व प्रशिक्षण संचालनालयाच्या (DVET) वरिष्ठ अधिकाऱ्यांचा डॅशबोर्ड."
+    },
+    {
+      "title": "Regional Office (RO) Dashboard",
+      "title_mr": "विभागीय कार्यालय (RO) डॅशबोर्ड",
+      "url": "/React/RO/Dashboard",
+      "requires_auth": true,
+      "category": "Authority",
+      "description": "Regional Office dashboard for district supervision, exam center monitoring, and approval.",
+      "description_mr": "विभागीय सहसंचालक कार्यालयाचा (RO) क्षेत्रीय तपासणी व नियंत्रण डॅशबोर्ड."
+    },
+    {
+      "title": "Staff & Instructor Dashboard",
+      "title_mr": "शिक्षक / कर्मचारी डॅशबोर्ड",
+      "url": "/React/Staff/dashboard",
+      "requires_auth": true,
+      "category": "Staff",
+      "description": "Staff dashboard for instructors to track classes, attendance entry, and syllabus progress.",
+      "description_mr": "प्रशिक्षकांसाठी दैनंदिन हजेरी नोंद, वर्ग वेळापत्रक आणि अभ्यासक्रम प्रगती डॅशबोर्ड."
+    },
+    {
+      "title": "Super Administrator Console",
+      "title_mr": "सुपर अ‍ॅडमिन कन्सोल",
+      "url": "/React/SuperAdmin/dashboard",
+      "requires_auth": true,
+      "category": "SuperAdmin",
+      "description": "Master administration portal for MSBSVET system configuration, master data, and permissions.",
+      "description_mr": "मास्टर डेटा, नवीन नियम, सिस्टिम कॉन्फिगरेशन आणि वापरकर्ता नियंत्रणाचा डॅशबोर्ड."
+    },
+    {
+      "title": "Candidate Personal & Primary Profile",
+      "title_mr": "उमेदवार वैयक्तिक व प्राथमिक तपशील",
+      "url": "/React/Candidate/Primary",
+      "requires_auth": true,
+      "category": "Candidate",
+      "description": "View and update candidate personal information, full name, gender, and contact details.",
+      "description_mr": "विद्यार्थ्याचे वैयक्तिक तपशील, पूर्ण नाव, लिंग आणि संपर्क माहिती पहा व अद्ययावत करा."
+    },
+    {
+      "title": "Candidate Address Details",
+      "title_mr": "उमेदवार पत्ता तपशील",
+      "url": "/React/Candidate/Address",
+      "requires_auth": true,
+      "category": "Candidate",
+      "description": "Candidate permanent and correspondence residential address, district, taluka, and pincode.",
+      "description_mr": "विद्यार्थ्याचा कायमचा व पत्रव्यवहाराचा पत्ता, जिल्हा, तालुका आणि पिनकोड."
+    },
+    {
+      "title": "Candidate Parent & Guardian Details",
+      "title_mr": "पालक व कुटुंब तपशील",
+      "url": "/React/Candidate/Parent",
+      "requires_auth": true,
+      "category": "Candidate",
+      "description": "Father's name, mother's name, guardian contact details, and family annual income.",
+      "description_mr": "वडिलांचे नाव, आईचे नाव, पालकांचा संपर्क आणि कौटुंबिक वार्षिक उत्पन्न."
+    },
+    {
+      "title": "Candidate Category & Caste Reservation",
+      "title_mr": "प्रवर्ग व जात आरक्षण तपशील",
+      "url": "/React/Candidate/Category",
+      "requires_auth": true,
+      "category": "Candidate",
+      "description": "Caste category (SC, ST, VJ/NT, OBC, EWS, OPEN), caste certificate, and validity details.",
+      "description_mr": "प्रवर्ग (एससी, एसटी, ओबीसी, ईडब्ल्यूएस, खुला), जात प्रमाणपत्र आणि वैधता तपशील."
+    },
+    {
+      "title": "Candidate Educational Qualification",
+      "title_mr": "शैक्षणिक पात्रता व गुण",
+      "url": "/React/Candidate/Qualification",
+      "requires_auth": true,
+      "category": "Candidate",
+      "description": "10th SSC, 12th HSC, ITI, or graduation passing year, board, total marks, and percentage.",
+      "description_mr": "१० वी, १२ वी, आयटीआय किंवा पदवीचे उत्तीर्ण वर्ष, मंडळ, एकूण गुण आणि टक्केवारी."
+    },
+    {
+      "title": "Candidate Previous Training Details",
+      "title_mr": "मागील प्रशिक्षण व अनुभव",
+      "url": "/React/Candidate/Training",
+      "requires_auth": true,
+      "category": "Candidate",
+      "description": "Prior technical training, vocational certificate, or apprenticeship experience details.",
+      "description_mr": "यापूर्वी पूर्ण केलेले तांत्रिक प्रशिक्षण, प्रमाणपत्र किंवा शिकाऊ उमेदवारीची माहिती."
+    },
+    {
+      "title": "Candidate Additional Details & Disability Status",
+      "title_mr": "अतिरिक्त तपशील व दिव्यांगत्व स्थिती",
+      "url": "/React/Candidate/Additional",
+      "requires_auth": true,
+      "category": "Candidate",
+      "description": "Differently-abled (Divyang) status, minority status, orphan status, and defense background.",
+      "description_mr": "दिव्यांगत्व स्थिती, अल्पसंख्याक प्रवर्ग, अनाथ आरक्षण आणि माजी सैनिक पालकांचे तपशील."
+    },
+    {
+      "title": "Candidate Bank Account Details",
+      "title_mr": "उमेदवार बँक खाते तपशील",
+      "url": "/React/Candidate/Bank",
+      "requires_auth": true,
+      "category": "Candidate",
+      "description": "Bank account number, IFSC code, bank name, and branch for Direct Benefit Transfer (DBT) and scholarships.",
+      "description_mr": "विद्यावेतन, शिष्यवृत्ती आणि डीबीटी अनुदानासाठी बँक खाते क्रमांक, आयएफएससी कोड आणि शाखा."
+    },
+    {
+      "title": "Candidate Work Experience",
+      "title_mr": "कामाचा अनुभव (Work Experience)",
+      "url": "/React/Candidate/WorkExperience",
+      "requires_auth": true,
+      "category": "Candidate",
+      "description": "Industry work experience, employer name, designation, and duration of service.",
+      "description_mr": "उद्योग क्षेत्रातील कामाचा अनुभव, कंपनीचे नाव, पद आणि कामाचा कालावधी."
+    },
+    {
+      "title": "Lock & Submit Application Form",
+      "title_mr": "अर्ज लॉक व अंतिम सादर करा",
+      "url": "/React/Candidate/LockApplicationForm",
+      "requires_auth": true,
+      "category": "Candidate",
+      "description": "Review complete profile, self-declare accuracy, and permanently lock candidate registration form.",
+      "description_mr": "संपूर्ण अर्जाची पडताळणी करून नोंदणी अर्ज अंतिम लॉक (सबमिट) करा."
+    },
+    {
+      "title": "Unlock Application Form Request",
+      "title_mr": "अर्ज अनलॉक विनंती",
+      "url": "/React/Candidate/VerifyToUnlock",
+      "requires_auth": true,
+      "category": "Candidate",
+      "description": "Request unlocking of candidate profile form for making corrections before approval.",
+      "description_mr": "माहिती दुरुस्त करण्यासाठी लॉक केलेला अर्ज अनलॉक करण्याची विनंती."
+    },
+    {
+      "title": "Apply for Main Course Admission",
+      "title_mr": "मुख्य अभ्यासक्रम प्रवेश अर्ज",
+      "url": "/React/Candidate/MainCourseAdmissionApply",
+      "requires_auth": true,
+      "category": "Candidate",
+      "description": "Select desired vocational trade and institute, apply for centralized or institute-level admission.",
+      "description_mr": "इच्छित व्यवसाय अभ्यासक्रम आणि संस्था निवडून प्रवेशासाठी ऑनलाइन अर्ज करा."
+    },
+    {
+      "title": "Candidate Course Apply",
+      "title_mr": "कोर्स प्रवेश अर्ज",
+      "url": "/React/Candidate/CourseApply",
+      "requires_auth": true,
+      "category": "Candidate",
+      "description": "Apply directly for vocational training courses and skill batches.",
+      "description_mr": "व्यावसायिक प्रशिक्षण अभ्यासक्रमांसाठी थेट अर्ज सादर करा."
+    },
+    {
+      "title": "Candidate Fee Structure & Fee Info",
+      "title_mr": "शुल्क माहिती (Fee Info)",
+      "url": "/React/Candidate/FeeInfo",
+      "requires_auth": true,
+      "category": "Candidate",
+      "description": "Complete breakdown of tuition fees, examination fees, and registration dues.",
+      "description_mr": "शिक्षण शुल्क, परीक्षा शुल्क आणि नोंदणी शुल्काचा तपशील."
+    },
+    {
+      "title": "Academisthan Course Completion Certificate",
+      "title_mr": "अकादमिस्थान ई-लर्निंग प्रमाणपत्र",
+      "url": "/React/Candidate/AcademisthanCertificate",
+      "requires_auth": true,
+      "category": "Candidate",
+      "description": "Download certificate upon successful completion of Academisthan digital online modules.",
+      "description_mr": "अकादमिस्थान ऑनलाइन अभ्यासक्रम यशस्वीरीत्या पूर्ण केल्याचे प्रमाणपत्र डाऊनलोड करा."
+    },
+    {
+      "title": "BCLS Computer Literacy Certificate",
+      "title_mr": "मूलभूत संगणक साक्षरता (BCLS) प्रमाणपत्र",
+      "url": "/React/Candidate/BCLSCertificate",
+      "requires_auth": true,
+      "category": "Candidate",
+      "description": "Download official Maharashtra Government Basic Computer Literacy Scheme certificate.",
+      "description_mr": "मूलभूत संगणक साक्षरता योजनेचे (BCLS) अधिकृत प्रमाणपत्र डाऊनलोड करा."
+    },
+    {
+      "title": "Aadhaar Reverification & KYC",
+      "title_mr": "आधार ई-केवायसी व फेरपडताळणी",
+      "url": "/React/Candidate/AadhaarReverify",
+      "requires_auth": true,
+      "category": "Candidate",
+      "description": "Aadhaar number linking, OTP reverification, and student UIDAI authentication.",
+      "description_mr": "विद्यार्थ्यांचे आधार कार्ड प्रमाणीकरण, ओटीपी पडताळणी आणि ई-केवायसी प्रक्रिया."
+    },
+    {
+      "title": "Online Examination Fee Payment",
+      "title_mr": "ऑनलाइन परीक्षा फी भरणे",
+      "url": "/React/Exam/ExamFees",
+      "requires_auth": true,
+      "category": "Exam",
+      "description": "Pay semester or annual vocational examination fees online securely via payment gateway.",
+      "description_mr": "सत्र किंवा वार्षिक परीक्षा शुल्क पेमेंट गेटवेद्वारे ऑनलाइन सुरक्षितपणे भरा."
+    },
+    {
+      "title": "Exam Fee Payment Details",
+      "title_mr": "परीक्षा फी तपशील",
+      "url": "/React/Exam/details",
+      "requires_auth": true,
+      "category": "Exam",
+      "description": "Detailed subject-wise examination fee calculation and candidate selection summary.",
+      "description_mr": "विषयानुसार परीक्षा फी गणना आणि निवडलेल्या विद्यार्थ्यांचा तपशील."
+    },
+    {
+      "title": "Selected Candidates for Exam Payment",
+      "title_mr": "परीक्षा फीसाठी निवडलेले विद्यार्थी",
+      "url": "/React/Exam/selectedCandidates",
+      "requires_auth": true,
+      "category": "Exam",
+      "description": "Batch student list shortlisted for bulk exam fee submission by institute.",
+      "description_mr": "संस्थेने परीक्षा फी भरण्यासाठी निवडलेल्या विद्यार्थ्यांची यादी."
+    },
+    {
+      "title": "Exam Attendance Report",
+      "title_mr": "परीक्षा उपस्थिती अहवाल",
+      "url": "/React/Exam/AttendanceReport",
+      "requires_auth": true,
+      "category": "Exam",
+      "description": "Subject-wise student attendance recorded during theory and practical examinations.",
+      "description_mr": "लेखी आणि प्रात्यक्षिक परीक्षांच्या वेळी नोंदवलेली विद्यार्थी उपस्थिती."
+    },
+    {
+      "title": "Exam Seating Arrangement",
+      "title_mr": "परीक्षा बैठक व्यवस्था",
+      "url": "/React/Exam/SeatingArrangement",
+      "requires_auth": true,
+      "category": "Exam",
+      "description": "Center hall allocation, roll number series, and classroom seating layout for exams.",
+      "description_mr": "परीक्षा हॉल क्रमांक, बैठक क्रमांक आणि वर्गांनुसार बैठक व्यवस्था."
+    },
+    {
+      "title": "Evaluation Center Mapping",
+      "title_mr": "उत्तरपत्रिका मूल्यांकन केंद्र वाटप",
+      "url": "/React/Exam/EvaluationCenterMapping",
+      "requires_auth": true,
+      "category": "Exam",
+      "description": "Designation of answer sheet evaluation centers and examiner appointments.",
+      "description_mr": "उत्तरपत्रिका तपासणीसाठी मूल्यांकन केंद्र वाटप आणि परीक्षकांची नियुक्ती."
+    },
+    {
+      "title": "Evaluation Center Mapping Status",
+      "title_mr": "मूल्यांकन केंद्र वाटप स्थिती",
+      "url": "/React/Exam/EvaluationCenterMappingStatus",
+      "requires_auth": true,
+      "category": "Exam",
+      "description": "Monitor progress of paper dispatch, evaluation completion, and mark entry status.",
+      "description_mr": "उत्तरपत्रिका वितरण, तपासणी प्रगती आणि गुण भरण्याची सद्यस्थिती."
+    },
+    {
+      "title": "Result Correction Approval",
+      "title_mr": "निकाल दुरुस्ती मंजुरी",
+      "url": "/React/Exam/ResultCorrectionForApproval",
+      "requires_auth": true,
+      "category": "Exam",
+      "description": "Board officer approval dashboard for student mark corrections and marksheet re-printing.",
+      "description_mr": "विद्यार्थ्यांच्या गुण दुरुस्ती आणि फेरतपासणी अर्जांना बोर्ड अधिकाऱ्यांकडून मंजुरी."
+    },
+    {
+      "title": "Ready for Assessment (STT / Short Term)",
+      "title_mr": "मूल्यांकनासाठी तयार बॅचेस",
+      "url": "/React/Exam/ReadyforAssessment",
+      "requires_auth": true,
+      "category": "Exam",
+      "description": "Mark short-term training batches ready for final practical and theory assessment.",
+      "description_mr": "अल्पमुदत प्रशिक्षण तुकड्यांचे अंतिम मूल्यांकन निश्चित करा."
+    },
+    {
+      "title": "STT Assessment Marks Entry",
+      "title_mr": "एसटीटी प्रात्यक्षिक व लेखी गुण नोंद",
+      "url": "/React/Exam/STTAssessmentMarks",
+      "requires_auth": true,
+      "category": "Exam",
+      "description": "Enter internal, viva, and practical assessment marks for short-term course trainees.",
+      "description_mr": "अल्पमुदत प्रशिक्षणार्थींचे प्रात्यक्षिक, तोंडी आणि लेखी गुण नोंदवा."
+    },
+    {
+      "title": "Assessment Course Mapping",
+      "title_mr": "मूल्यांकन अभ्यासक्रम मॅपिंग",
+      "url": "/React/Exam/AssessmentCourseMapping",
+      "requires_auth": true,
+      "category": "Exam",
+      "description": "Map assessment modules, assessors, and question banks to vocational courses.",
+      "description_mr": "अभ्यासक्रमानुसार मूल्यमापक आणि प्रश्नसंच मॅपिंग."
+    },
+    {
+      "title": "Elective Subject Assignment",
+      "title_mr": "ऐच्छिक विषय निवड व वाटप",
+      "url": "/React/Exam/ElectiveSubjectAssign",
+      "requires_auth": true,
+      "category": "Exam",
+      "description": "Assign elective subjects and optional trade specializations to exam candidates.",
+      "description_mr": "विद्यार्थ्यांसाठी ऐच्छिक विषय आणि विशेषीकरण निवड."
+    },
+    {
+      "title": "Backlog Elective Subject Assignment",
+      "title_mr": "बॅककलॉग ऐच्छिक विषय नोंद",
+      "url": "/React/Exam/ElectiveSubjectAssignBacklog",
+      "requires_auth": true,
+      "category": "Exam",
+      "description": "Assign elective subjects for backlog (ATKT) repeater students.",
+      "description_mr": "पुनःपरीक्षार्थी (ATKT) विद्यार्थ्यांचे अनुत्तीर्ण ऐच्छिक विषय नोंदवा."
+    },
+    {
+      "title": "BCLS Exam Result Status",
+      "title_mr": "बीसीएलएस संगणक परीक्षा निकाल",
+      "url": "/React/Exam/BCLSResultStatus",
+      "requires_auth": true,
+      "category": "Exam",
+      "description": "View results of Basic Computer Literacy Scheme examinations across colleges.",
+      "description_mr": "मूलभूत संगणक साक्षरता परीक्षेचे निकाल पहा."
+    },
+    {
+      "title": "Publish Examination Results",
+      "title_mr": "परीक्षा निकाल जाहीर करणे",
+      "url": "/React/Exam/PublishResult",
+      "requires_auth": true,
+      "category": "Exam",
+      "description": "Board administrative interface to officially declare and publish vocational exam results.",
+      "description_mr": "मंडळ अधिकाऱ्यांमार्फत परीक्षेचा अधिकृत निकाल ऑनलाइन जाहीर करणे."
+    },
+    {
+      "title": "Admissions Rejected by DVETO",
+      "title_mr": "डीव्हीईटीओने नामंजूर केलेले प्रवेश",
+      "url": "/React/Admission/CandidateListRejectedbyDveto",
+      "requires_auth": true,
+      "category": "Admission",
+      "description": "View list of student admissions rejected by district vocational education officers.",
+      "description_mr": "जिल्हा व्यवसाय शिक्षण अधिकाऱ्यांनी त्रुटींमुळे नाकारलेल्या प्रवेशांची यादी."
+    },
+    {
+      "title": "Student Batch Transfer",
+      "title_mr": "विद्यार्थी तुकडी (Batch) बदल",
+      "url": "/React/Admission/BatchTransfer",
+      "requires_auth": true,
+      "category": "Admission",
+      "description": "Transfer enrolled candidates between academic batches, shifts, or training centers.",
+      "description_mr": "विद्यार्थ्यांची बॅच, वेळ किंवा केंद्र बदलण्याची प्रक्रिया."
+    },
+    {
+      "title": "Short Term Course Training Fees",
+      "title_mr": "अल्पमुदत कोर्स प्रशिक्षण शुल्क",
+      "url": "/React/Admission/ShortTermCourse/CourseTrainingFee",
+      "requires_auth": true,
+      "category": "Admission",
+      "description": "Prescribed training fees and government subsidy rates for STT courses.",
+      "description_mr": "अल्पमुदत प्रशिक्षण कोर्सेसचे अधिकृत शुल्क आणि शासकीय अनुदान दर."
+    },
+    {
+      "title": "Confirm Admission Details",
+      "title_mr": "प्रवेश निश्चिती तपशील",
+      "url": "/React/Admission/confirm-admission-details",
+      "requires_auth": true,
+      "category": "Admission",
+      "description": "Institute verification and final seat confirmation for admitted candidates.",
+      "description_mr": "विद्यार्थ्यांच्या मूळ कागदपत्रांची पडताळणी करून प्रवेश निश्चित करा."
+    },
+    {
+      "title": "Cancel Admission Details",
+      "title_mr": "प्रवेश रद्द करणे",
+      "url": "/React/Admission/cancel-admission-details",
+      "requires_auth": true,
+      "category": "Admission",
+      "description": "Process candidate request to cancel admission and generate seat vacancy report.",
+      "description_mr": "विद्यार्थ्यांचा प्रवेश रद्द करण्याची प्रक्रिया आणि पावती."
+    },
+    {
+      "title": "Institute Management & Governing Body",
+      "title_mr": "संस्था व्यवस्थापन समिती",
+      "url": "/React/institute/Management",
+      "requires_auth": true,
+      "category": "Institute",
+      "description": "Details of the institute governing body, President, Secretary, and committee members.",
+      "description_mr": "संस्थेचे अध्यक्ष, सचिव आणि नियामक मंडळातील पदाधिकाऱ्यांचे तपशील."
+    },
+    {
+      "title": "Promoting Organization & Trust Information",
+      "title_mr": "प्रवर्तक संस्था व ट्रस्ट माहिती",
+      "url": "/React/institute/PromotingOrganization",
+      "requires_auth": true,
+      "category": "Institute",
+      "description": "Charity Commissioner registration number, 12A/80G status, and trust deed.",
+      "description_mr": "धर्मादाय आयुक्त नोंदणी क्रमांक, सोसायटी नोंदणी आणि संस्थेची मूळ कागदपत्रे."
+    },
+    {
+      "title": "Trust Promoters Directory",
+      "title_mr": "संस्थेचे प्रवर्तक व संचालक",
+      "url": "/React/institute/Promoters",
+      "requires_auth": true,
+      "category": "Institute",
+      "description": "List of promoters, trustees, PAN, Aadhaar, and background verification details.",
+      "description_mr": "संस्थेचे विश्वस्त, संचालक आणि प्रवर्तकांची अधिकृत सूची."
+    },
+    {
+      "title": "National & State Trade Courses in Institute",
+      "title_mr": "राष्ट्रीय व राज्य व्यवसाय अभ्यासक्रम",
+      "url": "/React/institute/Courses",
+      "requires_auth": true,
+      "category": "Institute",
+      "description": "Approved trade units, sanctioned intake, affiliated trades, and faculty allocation.",
+      "description_mr": "मंजूर तुकड्या, विद्यार्थी क्षमता आणि संलग्न व्यावसायिक कोर्सेस."
+    },
+    {
+      "title": "Secondary School Integration (SchoolStep)",
+      "title_mr": "माध्यमिक शाळा व्यवसाय शिक्षण (SchoolStep)",
+      "url": "/React/institute/SchoolStep",
+      "requires_auth": true,
+      "category": "Institute",
+      "description": "Vocational education in secondary schools (SchoolStep program) affiliated with ITIs.",
+      "description_mr": "माध्यमिक शाळांमधील पूर्व-व्यावसायिक अभ्यासक्रम (SchoolStep) व्यवस्थापन."
+    },
+    {
+      "title": "Institute Batch Details & Timings",
+      "title_mr": "संस्था तुकड्या व वेळापत्रक",
+      "url": "/React/institute/BatchDetails",
+      "requires_auth": true,
+      "category": "Institute",
+      "description": "Classroom assignments, training hours, morning/afternoon shifts, and instructor rosters.",
+      "description_mr": "वर्गखोल्या, सकाळ/दुपार सत्रे आणि शिक्षकांचे दैनंदिन वेळापत्रक."
+    },
+    {
+      "title": "Government ITI Trade Specifications (Trade)",
+      "title_mr": "शासकीय आयटीआय व्यवसाय तपशील",
+      "url": "/React/institute/Trade",
+      "requires_auth": true,
+      "category": "Institute",
+      "description": "Government ITI workshop layout, machinery specifications, and syllabus requirements.",
+      "description_mr": "शासकीय आयटीआय कार्यशाळा आणि व्यवसाय मानके."
+    },
+    {
+      "title": "Government ITI Infrastructure Specifications",
+      "title_mr": "शासकीय आयटीआय पायाभूत सुविधा तपशील",
+      "url": "/React/institute/Specification",
+      "requires_auth": true,
+      "category": "Institute",
+      "description": "Standard infrastructure specifications for building, power, water, and IT setup.",
+      "description_mr": "इमारत, वीज, पाणी आणि संगणक लॅब यासंबंधी अधिकृत मानके."
+    },
+    {
+      "title": "ITI Infrastructure Requirements & Proposals",
+      "title_mr": "आयटीआय पायाभूत सुविधा मागणी",
+      "url": "/React/institute/Requirement",
+      "requires_auth": true,
+      "category": "Institute",
+      "description": "Submit requirements for new tools, machines, renovation, and trade expansions.",
+      "description_mr": "नवीन यंत्रसामग्री, कार्यशाळा नूतनीकरण आणि सुविधांची मागणी नोंदवा."
+    },
+    {
+      "title": "District Planning Funds (DPDC Funds)",
+      "title_mr": "जिल्हा नियोजन निधी (DPDC Funds)",
+      "url": "/React/institute/DPDCFunds",
+      "requires_auth": true,
+      "category": "Institute",
+      "description": "Allocation and utilization of District Planning and Development Committee (DPDC) funds for ITIs.",
+      "description_mr": "जिल्हा वार्षिक योजना (DPDC) निधी वाटप आणि खर्च अहवाल."
+    },
+    {
+      "title": "Public Private Partnership (PPP Funds)",
+      "title_mr": "पीपीपी मॉडेल निधी (PPP Funds)",
+      "url": "/React/institute/PPPFunds",
+      "requires_auth": true,
+      "category": "Institute",
+      "description": "Utilization of Public-Private Partnership (PPP) scheme interest and capital for college upgrades.",
+      "description_mr": "सार्वजनिक-खाजगी भागीदारी (PPP) योजनेअंतर्गत निधी आणि विकासकामे."
+    },
+    {
+      "title": "Institute Security Deposit",
+      "title_mr": "संस्था अनामत रक्कम (Security Deposit)",
+      "url": "/React/institute/SecurityDeposite",
+      "requires_auth": true,
+      "category": "Institute",
+      "description": "Fixed deposit receipts (FDR) and statutory security deposits pledged to MSBSVET Board.",
+      "description_mr": "मंडळाकडे जमा केलेली मुदत ठेव पावती (FDR) आणि अनामत रक्कम."
+    },
+    {
+      "title": "Institutes Under Inquiry Notice",
+      "title_mr": "चौकशी सुरू असलेल्या संस्थांची यादी",
+      "url": "/React/institute/under-inquiry",
+      "requires_auth": true,
+      "category": "Institute",
+      "description": "Institutes subject to administrative inquiry or compliance notice from the Board.",
+      "description_mr": "प्रशासकीय चौकशी किंवा नोटीस बजावण्यात आलेल्या संस्थांची माहिती."
+    },
+    {
+      "title": "New Institute Promoters Details",
+      "title_mr": "नवीन संस्था प्रवर्तक तपशील",
+      "url": "/React/institute/PromotersDetails",
+      "requires_auth": true,
+      "category": "NewInstitute",
+      "description": "Personal, educational, and financial details of promoters proposing a new vocational institute.",
+      "description_mr": "नवीन व्यवसाय शिक्षण संस्था सुरू करणाऱ्या प्रवर्तकांची संपूर्ण माहिती."
+    },
+    {
+      "title": "Letter of Intent (LOI) Generation",
+      "title_mr": "आशयपत्र (LOI) निर्मिती",
+      "url": "/React/institute/LOIGeneration",
+      "requires_auth": true,
+      "category": "NewInstitute",
+      "description": "Apply for and generate official Board Letter of Intent (LOI) to establish a new institute.",
+      "description_mr": "नवीन संस्था स्थापनेसाठी मंडळाचे अधिकृत आशयपत्र (LOI) मिळवण्याचा अर्ज."
+    },
+    {
+      "title": "Institute Affiliation Application Payment",
+      "title_mr": "संलग्नता अर्ज शुल्क भरणे",
+      "url": "/React/institute/InstitutePayment",
+      "requires_auth": true,
+      "category": "NewInstitute",
+      "description": "Pay non-refundable application fee and inspection charges for new institute proposal.",
+      "description_mr": "नवीन संस्था मान्यतेसाठी प्रक्रिया शुल्क आणि तपासणी फी ऑनलाइन भरा."
+    },
+    {
+      "title": "Proposed Institute Details",
+      "title_mr": "प्रस्तावित संस्थेची माहिती",
+      "url": "/React/institute/ProposedInstituteDetails",
+      "requires_auth": true,
+      "category": "NewInstitute",
+      "description": "Proposed institute name, location, rural/urban category, and connectivity details.",
+      "description_mr": "प्रस्तावित संस्थेचे नाव, ठिकाण, ग्रामीण/शहरी भाग आणि संपर्क माहिती."
+    },
+    {
+      "title": "Institute Self Declaration",
+      "title_mr": "संस्था स्वयंघोषणापत्र (Self Declaration)",
+      "url": "/React/institute/SelfDeclaration",
+      "requires_auth": true,
+      "category": "NewInstitute",
+      "description": "Legal affidavit confirming compliance with building, fire safety, and infrastructure norms.",
+      "description_mr": "सर्व शासकीय नियम व निकषांचे पालन केल्याचे अधिकृत प्रतिज्ञापत्र."
+    },
+    {
+      "title": "Proposed Courses for Affiliation",
+      "title_mr": "संलग्नतेसाठी प्रस्तावित कोर्सेस",
+      "url": "/React/institute/ProposedCourse",
+      "requires_auth": true,
+      "category": "NewInstitute",
+      "description": "List of vocational trades and units proposed for new affiliation.",
+      "description_mr": "नवीन संस्थेमध्ये सुरू करावयाच्या अभ्यासक्रमांची व तुकड्यांची यादी."
+    },
+    {
+      "title": "Institute Building & Classroom Details",
+      "title_mr": "इमारत व वर्गखोल्या तपशील",
+      "url": "/React/institute/BuildingDetails",
+      "requires_auth": true,
+      "category": "NewInstitute",
+      "description": "Classroom carpet area, administrative wing, staff rooms, and building plan approval.",
+      "description_mr": "वर्गखोल्यांचे क्षेत्रफळ, प्रशासकीय विभाग आणि इमारत बांधकाम नकाशा."
+    },
+    {
+      "title": "Units for Board Inspection",
+      "title_mr": "तपासणीसाठी तुकड्या (Units)",
+      "url": "/React/institute/UnitsForInspection",
+      "requires_auth": true,
+      "category": "NewInstitute",
+      "description": "Trade units ready for physical inspection by the committee.",
+      "description_mr": "मंडळाच्या तपासणी समितीसाठी सज्ज असलेल्या तुकड्यांचा तपशील."
+    },
+    {
+      "title": "Campus Land Details & Ownership",
+      "title_mr": "जमीन व जागेची मालकी तपशील",
+      "url": "/React/institute/LandDetails",
+      "requires_auth": true,
+      "category": "NewInstitute",
+      "description": "7/12 extract, registered sale deed or long lease deed, and non-agriculture (NA) order.",
+      "description_mr": "संस्थेच्या जागेचा ७/१२ उतारा, भाडेकरार, खरेदीखत आणि अकृषक (NA) आदेश."
+    },
+    {
+      "title": "Workshops & Laboratory Setup",
+      "title_mr": "कार्यशाळा व प्रयोगशाळा तपशील",
+      "url": "/React/institute/WorkshopDetails",
+      "requires_auth": true,
+      "category": "NewInstitute",
+      "description": "Workshop dimensions, electrical safety, machine layout, and tool cribs.",
+      "description_mr": "कार्यशाळेचे क्षेत्रफळ, मशीन लेआउट आणि सुरक्षा उपाययोजना."
+    },
+    {
+      "title": "Institute Bank Account",
+      "title_mr": "संस्थेचे अधिकृत बँक खाते",
+      "url": "/React/institute/InstituteBank",
+      "requires_auth": true,
+      "category": "NewInstitute",
+      "description": "Nationalized or scheduled bank current account details of the institute.",
+      "description_mr": "संस्थेचे राष्ट्रीयीकृत बँकेतील चालू खाते तपशील."
+    },
+    {
+      "title": "Power Supply & Backup Details",
+      "title_mr": "वीज पुरवठा व जनरेटर बॅकअप",
+      "url": "/React/institute/PowerDetails",
+      "requires_auth": true,
+      "category": "NewInstitute",
+      "description": "Connected power load (kW/HP), 3-phase commercial electricity meter, and generator capacity.",
+      "description_mr": "विद्युत भार क्षमता (KW), ३-फेज वीज जोडणी आणि जनरेटर बॅकअप."
+    },
+    {
+      "title": "Training Equipment & Machinery List",
+      "title_mr": "प्रशिक्षण यंत्रसामग्री व साहित्य सूची",
+      "url": "/React/institute/TrainingEquipmentDetails",
+      "requires_auth": true,
+      "category": "NewInstitute",
+      "description": "Complete inventory of tools, testing instruments, and machinery purchased for the trade.",
+      "description_mr": "अभ्यासक्रमानुसार खरेदी केलेल्या सर्व यंत्रांची व उपकरणांची यादी."
+    },
+    {
+      "title": "Common Facilities & Amenities",
+      "title_mr": "सामायिक सुविधा (ग्रंथालय, पाणी, स्वच्छतागृह)",
+      "url": "/React/institute/CommonFacilityDetails",
+      "requires_auth": true,
+      "category": "NewInstitute",
+      "description": "Student library, separate boys/girls toilets, pure drinking water (RO), and broadband internet.",
+      "description_mr": "ग्रंथालय, मुला-मुलींसाठी स्वतंत्र स्वच्छतागृहे, पिण्याचे शुद्ध पाणी आणि इंटरनेट."
+    },
+    {
+      "title": "Inspection Fee Payment",
+      "title_mr": "तपासणी शुल्क (Inspection Fee)",
+      "url": "/React/institute/InspectionFee",
+      "requires_auth": true,
+      "category": "NewInstitute",
+      "description": "Pay on-site physical inspection fees for committee visit.",
+      "description_mr": "तपासणी समितीच्या प्रत्यक्ष भेटीसाठी लागणारे शुल्क भरा."
+    },
+    {
+      "title": "Staff Personal Profile",
+      "title_mr": "कर्मचारी वैयक्तिक प्रोफाइल",
+      "url": "/React/Staff/Primary",
+      "requires_auth": true,
+      "category": "Staff",
+      "description": "Staff member personal information, full name, date of birth, and identity credentials.",
+      "description_mr": "शिक्षकांचे वैयक्तिक तपशील, पूर्ण नाव, जन्मतारीख आणि ओळखपत्र."
+    },
+    {
+      "title": "Staff Qualifications & Teaching Experience",
+      "title_mr": "कर्मचारी शैक्षणिक पात्रता व अनुभव",
+      "url": "/React/Staff/Qualification",
+      "requires_auth": true,
+      "category": "Staff",
+      "description": "Technical degrees, diploma, CITS certification, and past vocational teaching experience.",
+      "description_mr": "तांत्रिक पदवी, डिप्लोमा, सीआयटीएस प्रमाणपत्र आणि अध्यापनाचा अनुभव."
+    },
+    {
+      "title": "Staff Sectorial & Technical Expertise",
+      "title_mr": "तांत्रिक व व्यवसाय विशेष नैपुण्य",
+      "url": "/React/Staff/SectorialExpertise",
+      "requires_auth": true,
+      "category": "Staff",
+      "description": "Sectorial skill competency, industry certifications, and trade specializations.",
+      "description_mr": "विषयनिहाय विशेष प्रावीण्य आणि तांत्रिक कौशल्य प्रमाणपत्रे."
+    },
+    {
+      "title": "Staff Verification System",
+      "title_mr": "कर्मचारी पडताळणी प्रणाली",
+      "url": "/React/Staff/StaffVerification",
+      "requires_auth": true,
+      "category": "Staff",
+      "description": "Board verification of teacher credentials, approval status, and appointment orders.",
+      "description_mr": "मंडळामार्फत शिक्षकांच्या पात्रतेची व नियुक्ती आदेशांची पडताळणी."
+    },
+    {
+      "title": "Staff Biometric Attendance",
+      "title_mr": "कर्मचारी बायोमेट्रिक हजेरी",
+      "url": "/React/Staff/AttendanceDashboard",
+      "requires_auth": true,
+      "category": "Staff",
+      "description": "Daily punch in/out logs and monthly biometric attendance summary for instructors.",
+      "description_mr": "शिक्षकांची दैनंदिन बायोमेट्रिक उपस्थिती आणि हजेरी अहवाल."
+    },
+    {
+      "title": "Frequently Asked Questions (FAQ)",
+      "title_mr": "वारंवार विचारले जाणारे प्रश्न (FAQ)",
+      "url": "/React/assistance/faq",
+      "requires_auth": false,
+      "category": "Assistance",
+      "description": "Answers to common questions regarding admissions, fees, examination rules, and certificates.",
+      "description_mr": "प्रवेश, परीक्षा, निकाल आणि प्रमाणपत्रांविषयी वारंवार विचारल्या जाणाऱ्या प्रश्नांची उत्तरे."
+    },
+    {
+      "title": "Schedule Meeting with Board Officials",
+      "title_mr": "मंडळाच्या अधिकाऱ्यांशी बैठक (Meeting) निश्चित करा",
+      "url": "/React/assistance/meeting",
+      "requires_auth": false,
+      "category": "Assistance",
+      "description": "Book official in-person or video conference meeting with MSBSVET executive officers.",
+      "description_mr": "मंडळाच्या अधिकाऱ्यांसोबत प्रत्यक्ष किंवा ऑनलाइन बैठक नियोजित करा."
+    },
+    {
+      "title": "Official Visit Scheduler",
+      "title_mr": "भेट नियोजक (Visit Scheduler)",
+      "url": "/React/assistance/visit-scheduler",
+      "requires_auth": false,
+      "category": "Assistance",
+      "description": "Request official Board officer visit or schedule campus orientation.",
+      "description_mr": "महाविद्यालयात अधिकाऱ्यांच्या भेटीचे नियोजन करा."
+    },
+    {
+      "title": "Online Grievance Submission Portal",
+      "title_mr": "तक्रार व निवारण अर्ज (Grievance Form)",
+      "url": "/React/assistance/grievance",
+      "requires_auth": false,
+      "category": "Assistance",
+      "description": "Submit formal grievance, complaint, or feedback to the MSBSVET grievance redressal cell.",
+      "description_mr": "तक्रार निवारण कक्षाकडे ऑनलाइन तक्रार किंवा अभिप्राय नोंदवा."
+    },
+    {
+      "title": "Fee Transaction History",
+      "title_mr": "फी व्यवहार इतिहास",
+      "url": "/React/Fee/TransactionHistory",
+      "requires_auth": true,
+      "category": "Fee",
+      "description": "View all online payments, transaction IDs, timestamps, and payment statuses.",
+      "description_mr": "केलेले सर्व ऑनलाइन पेमेंट, व्यवहार क्रमांक आणि स्थिती पहा."
+    },
+    {
+      "title": "Institute Registration Fee Information",
+      "title_mr": "संस्था नोंदणी शुल्क माहिती",
+      "url": "/React/Fee/InstituteRegistrationFeeInfo",
+      "requires_auth": false,
+      "category": "Fee",
+      "description": "Official tariff of affiliation fees, inspection fees, security deposits, and renewal charges.",
+      "description_mr": "संलग्नता शुल्क, तपासणी शुल्क आणि नूतनीकरण फीचा संपूर्ण दरपत्रक."
+    },
+    {
+      "title": "Institute Online Fee Receipt",
+      "title_mr": "संस्था ऑनलाइन फी पावती",
+      "url": "/React/InstOnlineReceipt",
+      "requires_auth": false,
+      "category": "Fee",
+      "description": "Download and print official computerized fee receipt for institute payments.",
+      "description_mr": "संस्थेने भरलेल्या शुल्काची अधिकृत संगणकीकृत पावती डाऊनलोड करा."
+    },
+    {
+      "title": "Bulk Payment Online Receipt",
+      "title_mr": "एकत्रित फी पावती (Bulk Receipt)",
+      "url": "/React/BulkOnlineReceipt",
+      "requires_auth": false,
+      "category": "Fee",
+      "description": "Print consolidated receipt for bulk examination or admission fee transactions.",
+      "description_mr": "एकत्रित भरलेल्या परीक्षा फीची संगणकीकृत पावती."
+    },
+    {
+      "title": "Student Online Receipt",
+      "title_mr": "विद्यार्थी फी पावती",
+      "url": "/React/OnlineReceipt",
+      "requires_auth": false,
+      "category": "Fee",
+      "description": "Download computerized payment receipt for student enrollment fees.",
+      "description_mr": "विद्यार्थ्यांनी भरलेल्या प्रवेश शुल्काची पावती."
+    },
+    {
+      "title": "Certificate Verification Receipt",
+      "title_mr": "प्रमाणपत्र पडताळणी पावती",
+      "url": "/React/VerificationReceipt",
+      "requires_auth": false,
+      "category": "Fee",
+      "description": "Payment receipt for online certificate verification service.",
+      "description_mr": "प्रमाणपत्र पडताळणी सेवेसाठी भरलेल्या शुल्काची पावती."
+    },
+    {
+      "title": "Short Term Training (STT) Batch Result Report",
+      "title_mr": "एसटीटी तुकडी निकाल अहवाल",
+      "url": "/React/Reports/STTBatchResultReport",
+      "requires_auth": true,
+      "category": "Reports",
+      "description": "Consolidated marksheet and pass percentage report for STT batches.",
+      "description_mr": "अल्पमुदत प्रशिक्षण तुकड्यांचा एकत्रित निकाल व उत्तीर्ण टक्केवारी अहवाल."
+    },
+    {
+      "title": "Greenfield Infrastructure Requirements Report",
+      "title_mr": "ग्रीनफिल्ड पायाभूत सुविधा अहवाल",
+      "url": "/React/Reports/GreenRequirementsReport",
+      "requires_auth": true,
+      "category": "Reports",
+      "description": "Statewide assessment of ITI workshop machinery, civil works, and gaps.",
+      "description_mr": "राज्यातील आयटीआयच्या पायाभूत सुविधा व यंत्रसामग्रीचा सविस्तर अहवाल."
+    },
+    {
+      "title": "Institute Management Details Report",
+      "title_mr": "संस्था व्यवस्थापन माहिती अहवाल",
+      "url": "/React/Reports/institute-management-details",
+      "requires_auth": true,
+      "category": "Reports",
+      "description": "MIS report of registered societies, trust deeds, and management personnel.",
+      "description_mr": "सर्व मान्यताप्राप्त संस्थांच्या व्यवस्थापनाचा प्रशासकीय अहवाल."
+    },
+    {
+      "title": "Dynamic MIS Report Generator",
+      "title_mr": "कस्टम एमआयएस अहवाल निर्मिती",
+      "url": "/React/Reports/GenerateReport",
+      "requires_auth": true,
+      "category": "Reports",
+      "description": "Custom reporting tool with filters for district, course, academic year, and gender.",
+      "description_mr": "जिल्हा, कोर्स आणि वर्षानुसार सानुकूल अहवाल तयार करण्याचे साधन."
+    },
+    {
+      "title": "Board Inspection Verification",
+      "title_mr": "मंडळ तपासणी पडताळणी",
+      "url": "/React/SDILOI/InspectionVerification",
+      "requires_auth": true,
+      "category": "Authority",
+      "description": "Secretary review of on-site inspection committee reports and recommendations.",
+      "description_mr": "तपासणी समितीच्या अहवालांची सचिव स्तरावर तपासणी व पडताळणी."
+    },
+    {
+      "title": "Government Proposals & Sanctions",
+      "title_mr": "शासकीय प्रस्ताव व मंजुरी",
+      "url": "/React/SDILOI/GovtProposal",
+      "requires_auth": true,
+      "category": "Authority",
+      "description": "Proposals submitted to the Skill Development Department for final sanction.",
+      "description_mr": "कौशल्य विकास विभागाकडे अंतिम मंजुरीसाठी सादर केलेले शासकीय प्रस्ताव."
+    },
+    {
+      "title": "Final Affiliation Orders",
+      "title_mr": "अंतिम संलग्नता आदेश",
+      "url": "/React/SDILOI/Approval",
+      "requires_auth": true,
+      "category": "Authority",
+      "description": "Issuance and verification of official Board affiliation orders.",
+      "description_mr": "संस्थांना अधिकृत संलग्नता आदेश जारी करणे व तपासणे."
+    },
+    {
+      "title": "Core Values of MSBSVET",
+      "title_mr": "मंडळाची मूलभूत मूल्ये",
+      "url": "/React/Public/CoreValues",
+      "requires_auth": false,
+      "category": "Public",
+      "description": "Integrity, quality, inclusivity, and excellence in vocational education.",
+      "description_mr": "कौशल्य शिक्षणातील पारदर्शकता, गुणवत्ता आणि उत्कृष्टतेची मूल्ये."
+    },
+    {
+      "title": "Objectives of MSBSVET",
+      "title_mr": "मंडळाची उद्दिष्टे",
+      "url": "/React/Public/objectives",
+      "requires_auth": false,
+      "category": "Public",
+      "description": "Statutory aims and skill development mandates of the Board.",
+      "description_mr": "कौशल्य विकास आणि व्यवसाय शिक्षणाचा विस्तार करण्याची ध्येय-उद्दिष्टे."
+    },
+    {
+      "title": "Goals & Targets",
+      "title_mr": "मंडळाचे लक्ष्य (Goals)",
+      "url": "/React/Public/goals",
+      "requires_auth": false,
+      "category": "Public",
+      "description": "Short-term and long-term targets for youth skilling and employment generation.",
+      "description_mr": "तरुणांना रोजगारक्षम बनवण्यासाठी ठरवलेली अल्प व दीर्घकालीन उद्दिष्टे."
+    },
+    {
+      "title": "Governing Council",
+      "title_mr": "कार्यकारी परिषद (Governing Council)",
+      "url": "/React/Public/GoverningCouncil",
+      "requires_auth": false,
+      "category": "Public",
+      "description": "Executive council members, ministers, secretaries, and industry leaders.",
+      "description_mr": "कार्यकारी परिषदेचे माननीय मंत्री, प्रधान सचिव आणि सदस्य."
+    },
+    {
+      "title": "Office Bearers of the Board",
+      "title_mr": "मंडळाचे प्रमुख पदाधिकारी",
+      "url": "/React/Public/OfficeBearers",
+      "requires_auth": false,
+      "category": "Public",
+      "description": "Chairman, Secretary, Director, and key administrative officers.",
+      "description_mr": "मंडळाचे अध्यक्ष, सचिव, संचालक आणि वरिष्ठ प्रशासकीय अधिकारी."
+    },
+    {
+      "title": "Organization Structure & Hierarchy",
+      "title_mr": "संघटनात्मक रचना (Org Structure)",
+      "url": "/React/Public/OrganizationStructure",
+      "requires_auth": false,
+      "category": "Public",
+      "description": "Organogram of MSBSVET departments, regional offices, and district monitoring units.",
+      "description_mr": "मंडळाची प्रशासकीय रचना, विभाग आणि क्षेत्रीय कार्यालये."
+    },
+    {
+      "title": "MSBSVET Website Sitemap",
+      "title_mr": "पोर्टल साईटमॅप",
+      "url": "/React/Public/Sitemap",
+      "requires_auth": false,
+      "category": "Public",
+      "description": "Complete navigation directory of all sections and pages on the MSBSVET portal.",
+      "description_mr": "पोर्टलवरील सर्व पृष्ठे आणि सेवांची सुलभ मार्गदर्शिका."
+    },
+    {
+      "title": "Legal Disclaimer & Terms",
+      "title_mr": "कायदेशीर अस्वीकरण (Disclaimer)",
+      "url": "/React/Public/Disclaimer",
+      "requires_auth": false,
+      "category": "Public",
+      "description": "Official legal terms, copyright, privacy policy, and usage disclaimer.",
+      "description_mr": "पोर्टल वापराचे कायदेशीर नियम, गोपनीयता धोरण आणि अटी."
+    }
+  ],
+  "navigation_guide": {
+    "en": {
+      "home": "To visit the official homepage: /React/Public/Home",
+      "courses": "To explore vocational courses: /React/Public/courses",
+      "courses_stt": "For Short Term Training courses: /React/Public/coursesSTT",
+      "institutes": "To find affiliated institutes: /React/Public/institutes",
+      "candidate_registration": "For new candidate admission registration: /React/candidate/register",
+      "candidate_dashboard": "To access the candidate dashboard (Login required): /React/Candidate/dashboard",
+      "institute_registration": "To register a new institute or promoting organization: /React/Public/PromotingOrganizationRegistration",
+      "institute_dashboard": "For institute management dashboard (Login required): /React/institute/dashboard",
+      "certificate_verification": "To verify MSBSVET certificates: /React/Public/CertificateVerification",
+      "hall_ticket": "To view and print your examination hall ticket: /React/Exam/HallTicket",
+      "exam_timetable": "To check exam schedule and timetable: /React/Public/ExamTimeTable",
+      "exam_circular": "To read the latest examination circulars: /React/Public/ExamCircular",
+      "exam_results": "To view examination results: /React/Candidate/ResultandCertificate or /React/Exam/ResultAndCertificate",
+      "admission_status": "To check your application ID and status: /React/Admission/CheckApplicationID",
+      "admission_letter": "To print your admission allotment letter: /React/Admission/PrintAdmissionLetter",
+      "grievance": "To register an online complaint: /React/Public/register-complaint",
+      "complaint_status": "To check your complaint resolution status: /React/Public/complaint-status",
+      "downloads": "To download official documents, syllabi, and handbooks: /React/Public/LegitDownload",
+      "login": "To sign in to your account: /React/auth/signin",
+      "account_recovery": "To recover your account or reset password: /React/AccountRecovery",
+      "reports": "To view administrative reports: /React/Reports/ReportsList",
+      "contact": "For official helpline and contact details: /React/Public/ContactUs"
+    },
+    "mr": {
+      "home": "अधिकृत मुख्यपृष्ठाला भेट देण्यासाठी: /React/Public/Home",
+      "courses": "व्यावसायिक अभ्यासक्रम शोधण्यासाठी: /React/Public/courses",
+      "courses_stt": "अल्पमुदत (STT) कोर्सेस पाहण्यासाठी: /React/Public/coursesSTT",
+      "institutes": "संलग्न संस्थांची माहिती पाहण्यासाठी: /React/Public/institutes",
+      "candidate_registration": "नवीन विद्यार्थी नोंदणी करण्यासाठी: /React/candidate/register",
+      "candidate_dashboard": "विद्यार्थी डॅशबोर्ड पाहण्यासाठी: /React/Candidate/dashboard (लॉगिन आवश्यक)",
+      "institute_registration": "नवीन संस्था किंवा ट्रस्ट नोंदणीसाठी: /React/Public/PromotingOrganizationRegistration",
+      "institute_dashboard": "संस्था व्यवस्थापन डॅशबोर्डसाठी: /React/institute/dashboard (लॉगिन आवश्यक)",
+      "certificate_verification": "प्रमाणपत्र पडताळणीसाठी: /React/Public/CertificateVerification",
+      "hall_ticket": "परीक्षेचे हॉल तिकीट डाऊनलोड करण्यासाठी: /React/Exam/HallTicket",
+      "exam_timetable": "परीक्षा वेळापत्रक पाहण्यासाठी: /React/Public/ExamTimeTable",
+      "exam_circular": "परीक्षा परिपत्रके वाचण्यासाठी: /React/Public/ExamCircular",
+      "exam_results": "परीक्षेचा निकाल पाहण्यासाठी: /React/Candidate/ResultandCertificate",
+      "admission_status": "प्रवेश अर्जाची स्थिती तपासण्यासाठी: /React/Admission/CheckApplicationID",
+      "admission_letter": "प्रवेश पत्र (Allotment Letter) प्रिंट करण्यासाठी: /React/Admission/PrintAdmissionLetter",
+      "grievance": "ऑनलाइन तक्रार नोंदवण्यासाठी: /React/Public/register-complaint",
+      "complaint_status": "तक्रारीची सद्यस्थिती तपासण्यासाठी: /React/Public/complaint-status",
+      "downloads": "परिपत्रके व पुस्तिक डाऊनलोड करण्यासाठी: /React/Public/LegitDownload",
+      "login": "खात्यात लॉगिन करण्यासाठी: /React/auth/signin",
+      "account_recovery": "पासवर्ड रीसेट व खाते पुनर्प्राप्तीसाठी: /React/AccountRecovery",
+      "reports": "प्रशासकीय अहवाल पाहण्यासाठी: /React/Reports/ReportsList",
+      "contact": "मदत व संपर्कासाठी: /React/Public/ContactUs"
+    }
+  },
+  "quick_actions": {
+    "en": [
+      {
+        "label": "🎓 Browse Courses",
+        "query": "What courses are available?"
+      },
+      {
+        "label": "🏛️ Find Institutes",
+        "query": "Show me institutes near me"
+      },
+      {
+        "label": "📝 Candidate Register",
+        "query": "I want candidate registration"
+      },
+      {
+        "label": "🏫 Institute Register",
+        "query": "How to register a new institute?"
+      },
+      {
+        "label": "🎫 Hall Ticket",
+        "query": "Where can I get my hall ticket?"
+      },
+      {
+        "label": "📅 Exam Timetable",
+        "query": "When is the examination timetable?"
+      },
+      {
+        "label": "📊 Exam Results",
+        "query": "Where can I check exam results?"
+      },
+      {
+        "label": "📜 Certificate Verification",
+        "query": "Verify certificate online"
+      },
+      {
+        "label": "📄 Admission Letter",
+        "query": "Print admission allotment letter"
+      },
+      {
+        "label": "📢 Lodge Complaint",
+        "query": "How do I register a complaint?"
+      },
+      {
+        "label": "📥 Download Forms",
+        "query": "Where can I download forms?"
+      },
+      {
+        "label": "🔐 Login Portal",
+        "query": "Take me to login page"
+      }
+    ],
+    "mr": [
+      {
+        "label": "🎓 कोर्स शोधा",
+        "query": "कोणते कोर्स उपलब्ध आहेत?"
+      },
+      {
+        "label": "🏛️ संस्था शोधा",
+        "query": "संस्था दाखवा"
+      },
+      {
+        "label": "📝 विद्यार्थी नोंदणी",
+        "query": "मला नोंदणी करायची आहे"
+      },
+      {
+        "label": "🏫 संस्था नोंदणी",
+        "query": "मला संस्था नोंदणी करायची आहे"
+      },
+      {
+        "label": "🎫 हॉल तिकीट",
+        "query": "परीक्षेचे हॉल तिकीट कुठे मिळेल?"
+      },
+      {
+        "label": "📅 परीक्षा वेळापत्रक",
+        "query": "परीक्षा वेळापत्रक दाखवा"
+      },
+      {
+        "label": "📊 परीक्षेचा निकाल",
+        "query": "परीक्षेचा निकाल कुठे पाहायचा?"
+      },
+      {
+        "label": "📜 प्रमाणपत्र पडताळणी",
+        "query": "प्रमाणपत्र पडताळणी करायची आहे"
+      },
+      {
+        "label": "📄 प्रवेश पत्र",
+        "query": "प्रवेश पत्र (Allotment Letter) प्रिंट करा"
+      },
+      {
+        "label": "📢 तक्रार नोंदवा",
+        "query": "तक्रार कशी नोंदवायची?"
+      },
+      {
+        "label": "📥 अर्ज डाऊनलोड",
+        "query": "अर्ज आणि परिपत्रक डाउनलोड करा"
+      },
+      {
+        "label": "🔐 लॉगिन पृष्ठ",
+        "query": "लॉगिन पेज उघडा"
+      }
+    ]
+  }
+}

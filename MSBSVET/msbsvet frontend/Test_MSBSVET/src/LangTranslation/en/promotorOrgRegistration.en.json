@@ -1,0 +1,90 @@
+{
+  "page": {
+    "titleShowInfo": "Promoting Organization User Login Details"
+  },
+  "notes": {
+    "note1": "Promoting Organization ID is ",
+    "note2": ". This Promoting Organization ID shall be used as User Name to login to account.",
+    "note3": "Login to account and complete Promoting Organization Details",
+    "note4": "All information and OTP (One Time Password) shall be sent through SMS on the Primary Mobile Number of the Authorized Representative; hence, the Primary Mobile Number should be updated through the respective Staff/Management Profile."
+  },
+  "common": {
+    "apply": "Apply",
+    "srNo": "Sr. No."
+  },
+
+  "buttons": {
+    "apply": "Apply",
+    "proceed": "Register",
+    "reset": "Reset",
+    "uploadAadhaar": "Upload Aadhar Card",
+    "uploadPhoto": "Upload Passport Photo of Authorized Person",
+    "proceedview": "Proceed to Login >>>",
+    "pendingSubmitting": "Submitting..."
+  },
+
+  "labels": {
+    "aadhaarNo": "Aadhar No",
+    "address": "Address",
+    "altMobileNo": "Alternative Mobile Number",
+    "applicationFor": "Registration for",  
+    "batchStartDate": "Batch Start Date",
+    "city": "City / Village",
+    "confirmPassword": "Confirm Password",
+    "courseCode": "Course Code",
+    "course": "Course",
+    "courseType": "Course Type",
+    "district": "District",
+    "dob": "Date of Birth",
+    "email": "E-Mail ID",
+    "fileTypesAllowed": "File Types Allowed",
+    "firstName": "First Name",
+    "gender": "Gender",
+    "institute": "Institute",
+    "instituteName": "Name of Promoting Organization",
+    "intake": "Intake",
+    "lastDateOfAdmission": "Last Date Of Admission",
+    "lastName": "Last / Surname",
+    "locationCategory": "Location Category",
+    "maxFileSize": "Maximum File Size Allowed",
+    "middleName": "Middle / Father / Husband Name",
+    "mobileNo": "Primary Mobile Number",
+    "otherCity": "Other City / Village",
+    "otherPromotingOrganisation": "Type of Other Promoting Organization",
+    "password": "Password",
+    "phone": "STD Code - Phone Number",
+    "promoterType": "Promoter Type",
+    "promotingOrgAddress": "Address",
+    "promotingOrgPin": "Pin Code",
+    "promotingOrgStatus": "Government / Private Status",
+    "registrationDate": "Date of Registration / Incorporation / Establishment",
+    "OrganizatioRegistrationNumber":"Registration/ Incorporation Number/ GR Number",
+    "securityQuestion": "Security Question",
+    "securityAnswer": "Security Question Answer",
+    "selectFileUpload": "Select File to Upload",
+    "shift": "Shift",
+    "state": "State",
+    "taluka": "Taluka",
+    "title": "Title",
+    "typeOfPromotingOrg": "Type of Promoting Organization",
+    "unitNo": "Unit No",
+    "vacancy": "Vacancy"
+  },
+
+  "headings": {
+    "authorizedRepresentative": "Staff / Management Profile ID for Authorized Representative",
+    "admissionCoordinator": "Admission Co-Ordinator Details",
+    "availableCourseList": "Available Courses List",
+    "createPromoting": "Create Promoting Organization account",
+    "instituteDetails": "Institute Details",
+    "principalDetails": "Principal Details",
+    "popupInstituteCourse": "Institute Course Shift Unit Intake Mapping",
+    "prevInstituteCode": "Institute Code",
+    "proposedInstituteDetails": "Proposed Institute Details",
+    "authorizedRepresentativeDetails": "Authorized Representative Details",
+    "promotingOrganizationDetails": "Promoting Organization Details",
+    "pageTopInstituteInfo": "Institute Information",
+    "pageTopRegistration": "Promoting Organization Registration"
+  }
+}
+

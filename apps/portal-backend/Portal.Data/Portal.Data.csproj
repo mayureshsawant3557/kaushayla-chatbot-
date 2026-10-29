@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EnterpriseLibrary.Data" Version="6.0.1304" />
+    <PackageReference Include="iTextSharp" Version="5.5.13.4" />
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="6.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="9.0.1" />
+    <PackageReference Include="Microsoft.IdentityModel.Protocols" Version="8.4.0" />
+    <PackageReference Include="QRCoder" Version="1.6.0" />
+    <PackageReference Include="QuestPDF" Version="2025.7.0" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="9.0.1" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.9.0" />
+    <PackageReference Include="Microsoft.Bcl.Memory" Version="9.0.14" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Portal.DataMySQL\Portal.DataMySQL.csproj" />
+    <ProjectReference Include="..\Portal.Entities\Portal.Entities.csproj" />
+	 
+  </ItemGroup>
+
+</Project>

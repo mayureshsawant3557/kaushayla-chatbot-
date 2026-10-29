@@ -1,0 +1,33 @@
+import { baseURL } from "../config/baseConfig";
+
+export const API_BASE = `${baseURL}/Base`;
+
+export const getGender = `${baseURL}/api/GeneralAPIs/genders`;
+export const GetBlood_Groups = `${baseURL}/api/GeneralAPIs/blood-groups`;
+export const GetLanguages = `${baseURL}/api/GeneralAPIs/languages`;
+export const GetMasterTableList = `${baseURL}/Base/GetMasterTableList`;
+export const GetMasterCaste = `${baseURL}/Base/GetMasterCaste`;
+export const GetMasterQualification = `${baseURL}/Base/GetMasterQualification`;
+export const GetMasterMainCourse = `${baseURL}/Base/GetMasterMainCourse`;
+export const GetCandidateID = `${baseURL}/Base/GetCandidateID`;
+export const GetApplicationIDByApplicationIDDisplay = `${baseURL}/Base/GetApplicationIDByApplicationIDDisplay`;
+export const SearchStaffManagement = `${baseURL}/api/StaffApproval/SearchStaffManagement`;
+export const SearchPromotingOrganization = `${baseURL}/api/PromotionalOrganisation/SearchPromotingOrganization`;
+export const GetCourseByCollogeID = `${baseURL}/Base/GetCourseByCollogeID`;
+export const GetAdmissionYear = `${baseURL}/Base/GetAdmissionYear`;
+export const SaveUserActionDetails = `${baseURL}/Base/SaveUserActionDetails`;
+export const GetCandidateIDByApplicationID = `${baseURL}/Base/GetCandidateIDByApplicationID`;
+export const GetCandidateName = `${baseURL}/Base/GetCandidateName`;
+export const GetApprovalOrder = `${baseURL}/Base/GetApprovalOrder`;
+export const GetStaffID = `${baseURL}/Base/GetStaffID`;
+export const GetStaffSummary2 = `${baseURL}/api/StaffSummary/GetStaffSummary`;
+export const GetCandidateSummary = `${baseURL}/api/CandidateSummary/getsummary`;
+export const GetMasterPromoter = `${baseURL}/Base/GetMasterPromoterStatus`;
+export const GetMasterPromoterType = `${baseURL}/Base/GetMasterPromoterType`;
+export const IsStaffAadharNoDuplicate = `${baseURL}/Base/IsStaffAadharNoDuplicate`;
+export const IsCandidateAadharNoDuplicate = `${baseURL}/Base/IsCandidateAadharNoDuplicate`;
+export const GetIsGovCollege = `${baseURL}/Base/GetIsGovCollege`;
+export const GetIsActivityValid = `${baseURL}/Base/GetIsActivityValid`;
+export const aadhaarVerification = `${baseURL}/api/AadhaarVerification/verify`;
+export const aadhaarReVerification = `${baseURL}/api/AadhaarVerification/reverify`;
+export const GetMasterPromotingType = `${baseURL}/Base/GetMasterPromotingType`;

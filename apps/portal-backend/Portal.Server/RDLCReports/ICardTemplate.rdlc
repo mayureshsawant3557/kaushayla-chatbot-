@@ -1,0 +1,693 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2016/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <AutoRefresh>0</AutoRefresh>
+  <DataSources>
+    <DataSource Name="DataSource1">
+      <ConnectionProperties>
+        <DataProvider>System.Data.DataSet</DataProvider>
+        <ConnectString>/* Local Connection */</ConnectString>
+      </ConnectionProperties>
+      <rd:DataSourceID>4e8e2ce3-9e9b-4a37-9f48-1a4a9b0b1a6c</rd:DataSourceID>
+    </DataSource>
+  </DataSources>
+  <DataSets>
+    <DataSet Name="CandidateDataSet">
+      <Query>
+        <DataSourceName>DataSource1</DataSourceName>
+        <CommandText>/* Local Query */</CommandText>
+      </Query>
+      <Fields>
+        <Field Name="CandidateID">
+          <DataField>CandidateID</DataField>
+          <rd:TypeName>System.Int64</rd:TypeName>
+        </Field>
+        <Field Name="ApplicationID">
+          <DataField>ApplicationID</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Name">
+          <DataField>Name</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="FirstName">
+          <DataField>FirstName</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="MiddleName">
+          <DataField>MiddleName</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="LastName">
+          <DataField>LastName</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Gender">
+          <DataField>Gender</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="DateOfBirth">
+          <DataField>DateOfBirth</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="MobileNo">
+          <DataField>MobileNo</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="EMailID">
+          <DataField>EMailID</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="AadhaarNo">
+          <DataField>AadhaarNo</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Address">
+          <DataField>Address</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="City">
+          <DataField>City</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="District">
+          <DataField>District</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="State">
+          <DataField>State</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Pincode">
+          <DataField>Pincode</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="PhotoBase64">
+          <DataField>PhotoBase64</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ValidUpto">
+          <DataField>ValidUpto</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="IssueDate">
+          <DataField>IssueDate</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="FormStatus">
+          <DataField>FormStatus</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ITIRegistrationNo">
+          <DataField>ITIRegistrationNo</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+      </Fields>
+    </DataSet>
+  </DataSets>
+  <ReportSections>
+    <ReportSection>
+      <Body>
+        <ReportItems>
+          <Rectangle Name="HeaderRectangle">
+            <ReportItems>
+              <Textbox Name="InstituteName">
+                <CanGrow>true</CanGrow>
+                <KeepTogether>true</KeepTogether>
+                <Paragraphs>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>=Parameters!InstituteName.Value</Value>
+                        <Style>
+                          <FontSize>12pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                          <Color>Navy</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style>
+                      <TextAlign>Center</TextAlign>
+                    </Style>
+                  </Paragraph>
+                </Paragraphs>
+                <rd:DefaultName>InstituteName</rd:DefaultName>
+                <Top>0.2cm</Top>
+                <Left>0.5cm</Left>
+                <Height>0.7cm</Height>
+                <Width>9cm</Width>
+                <Style>
+                  <Border>
+                    <Style>None</Style>
+                  </Border>
+                  <PaddingLeft>2pt</PaddingLeft>
+                  <PaddingRight>2pt</PaddingRight>
+                  <PaddingTop>2pt</PaddingTop>
+                  <PaddingBottom>2pt</PaddingBottom>
+                </Style>
+              </Textbox>
+              <Textbox Name="ReportTitle">
+                <CanGrow>true</CanGrow>
+                <KeepTogether>true</KeepTogether>
+                <Paragraphs>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>=Parameters!ReportTitle.Value</Value>
+                        <Style>
+                          <FontWeight>Bold</FontWeight>
+                          <Color>DarkRed</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style>
+                      <TextAlign>Center</TextAlign>
+                    </Style>
+                  </Paragraph>
+                </Paragraphs>
+                <rd:DefaultName>ReportTitle</rd:DefaultName>
+                <Top>0.9cm</Top>
+                <Left>0.5cm</Left>
+                <Height>0.5cm</Height>
+                <Width>9cm</Width>
+                <ZIndex>1</ZIndex>
+                <Style>
+                  <Border>
+                    <Style>None</Style>
+                  </Border>
+                  <PaddingLeft>2pt</PaddingLeft>
+                  <PaddingRight>2pt</PaddingRight>
+                  <PaddingTop>2pt</PaddingTop>
+                  <PaddingBottom>2pt</PaddingBottom>
+                </Style>
+              </Textbox>
+            </ReportItems>
+            <KeepTogether>true</KeepTogether>
+            <Top>0cm</Top>
+            <Left>0cm</Left>
+            <Height>1.7cm</Height>
+            <Width>9.5cm</Width>
+            <Style>
+              <Border>
+                <Color>Navy</Color>
+                <Style>Solid</Style>
+                <Width>2pt</Width>
+              </Border>
+              <BackgroundColor>LightBlue</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Image Name="StudentPhoto">
+            <Source>External</Source>
+            <Value>=First(Fields!PhotoBase64.Value, "CandidateDataSet")</Value>
+            <MIMEType>image/jpeg</MIMEType>
+            <Sizing>FitProportional</Sizing>
+            <Top>2cm</Top>
+            <Left>0.52361cm</Left>
+            <Height>3.5cm</Height>
+            <Width>2.8cm</Width>
+            <ZIndex>1</ZIndex>
+            <Style>
+              <Border>
+                <Color>Navy</Color>
+                <Style>Solid</Style>
+                <Width>2pt</Width>
+              </Border>
+            </Style>
+          </Image>
+          <Rectangle Name="DetailsRectangle">
+            <ReportItems>
+              <Textbox Name="StudentName">
+                <CanGrow>true</CanGrow>
+                <KeepTogether>true</KeepTogether>
+                <Paragraphs>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>Name: </Value>
+                        <Style>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>=First(Fields!Name.Value, "CandidateDataSet")</Value>
+                        <Style>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style />
+                  </Paragraph>
+                </Paragraphs>
+                <rd:DefaultName>StudentName</rd:DefaultName>
+                <Top>0.1cm</Top>
+                <Left>0.2cm</Left>
+                <Height>0.5cm</Height>
+                <Width>5.8cm</Width>
+                <Style />
+              </Textbox>
+              <Textbox Name="ApplicationID">
+                <CanGrow>true</CanGrow>
+                <KeepTogether>true</KeepTogether>
+                <Paragraphs>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>Application ID: </Value>
+                        <Style>
+                          <FontSize>8pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>=First(Fields!ApplicationID.Value, "CandidateDataSet")</Value>
+                        <Style>
+                          <FontSize>8pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style />
+                  </Paragraph>
+                </Paragraphs>
+                <rd:DefaultName>ApplicationID</rd:DefaultName>
+                <Top>0.6cm</Top>
+                <Left>0.2cm</Left>
+                <Height>0.4cm</Height>
+                <Width>5.8cm</Width>
+                <ZIndex>1</ZIndex>
+                <Style />
+              </Textbox>
+              <Textbox Name="DOB">
+                <CanGrow>true</CanGrow>
+                <KeepTogether>true</KeepTogether>
+                <Paragraphs>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>DOB: </Value>
+                        <Style>
+                          <FontSize>8pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>=First(Fields!DateOfBirth.Value, "CandidateDataSet")</Value>
+                        <Style>
+                          <FontSize>8pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style />
+                  </Paragraph>
+                </Paragraphs>
+                <rd:DefaultName>DOB</rd:DefaultName>
+                <Top>1cm</Top>
+                <Left>0.2cm</Left>
+                <Height>0.4cm</Height>
+                <Width>5.8cm</Width>
+                <ZIndex>2</ZIndex>
+                <Style />
+              </Textbox>
+              <Textbox Name="Gender">
+                <CanGrow>true</CanGrow>
+                <KeepTogether>true</KeepTogether>
+                <Paragraphs>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>Gender: </Value>
+                        <Style>
+                          <FontSize>8pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>=First(Fields!Gender.Value, "CandidateDataSet")</Value>
+                        <Style>
+                          <FontSize>8pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style />
+                  </Paragraph>
+                </Paragraphs>
+                <rd:DefaultName>Gender</rd:DefaultName>
+                <Top>1.4cm</Top>
+                <Left>0.2cm</Left>
+                <Height>0.4cm</Height>
+                <Width>5.8cm</Width>
+                <ZIndex>3</ZIndex>
+                <Style />
+              </Textbox>
+              <Textbox Name="MobileNo">
+                <CanGrow>true</CanGrow>
+                <KeepTogether>true</KeepTogether>
+                <Paragraphs>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>Mobile: </Value>
+                        <Style>
+                          <FontSize>8pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>=First(Fields!MobileNo.Value, "CandidateDataSet")</Value>
+                        <Style>
+                          <FontSize>8pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style />
+                  </Paragraph>
+                </Paragraphs>
+                <rd:DefaultName>MobileNo</rd:DefaultName>
+                <Top>1.8cm</Top>
+                <Left>0.2cm</Left>
+                <Height>0.4cm</Height>
+                <Width>5.8cm</Width>
+                <ZIndex>4</ZIndex>
+                <Style />
+              </Textbox>
+              <Textbox Name="AadhaarNo">
+                <CanGrow>true</CanGrow>
+                <KeepTogether>true</KeepTogether>
+                <Paragraphs>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>Aadhaar: </Value>
+                        <Style>
+                          <FontSize>8pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>
+													=IIf(Len(First(Fields!AadhaarNo.Value, "CandidateDataSet")) &gt; 8,
+													"XXXX-XXXX-" + Right(First(Fields!AadhaarNo.Value, "CandidateDataSet"), 4),
+													First(Fields!AadhaarNo.Value, "CandidateDataSet"))
+												</Value>
+                        <Style>
+                          <FontSize>8pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style />
+                  </Paragraph>
+                </Paragraphs>
+                <rd:DefaultName>AadhaarNo</rd:DefaultName>
+                <Top>2.2cm</Top>
+                <Left>0.2cm</Left>
+                <Height>0.4cm</Height>
+                <Width>5.8cm</Width>
+                <ZIndex>5</ZIndex>
+                <Style />
+              </Textbox>
+              <Textbox Name="EmailID">
+                <CanGrow>true</CanGrow>
+                <KeepTogether>true</KeepTogether>
+                <Paragraphs>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>Email: </Value>
+                        <Style>
+                          <FontSize>8pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>=First(Fields!EMailID.Value, "CandidateDataSet")</Value>
+                        <Style>
+                          <FontSize>8pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style />
+                  </Paragraph>
+                </Paragraphs>
+                <rd:DefaultName>EmailID</rd:DefaultName>
+                <Top>2.6cm</Top>
+                <Left>0.2cm</Left>
+                <Height>0.4cm</Height>
+                <Width>5.8cm</Width>
+                <ZIndex>6</ZIndex>
+                <Style />
+              </Textbox>
+              <Textbox Name="Address">
+                <CanGrow>true</CanGrow>
+                <KeepTogether>true</KeepTogether>
+                <Paragraphs>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>Address: </Value>
+                        <Style>
+                          <FontSize>8pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>
+													=First(Fields!Address.Value, "CandidateDataSet") + ", " +
+													First(Fields!City.Value, "CandidateDataSet") + ", " +
+													First(Fields!District.Value, "CandidateDataSet") + ", " +
+													First(Fields!State.Value, "CandidateDataSet") + " - " +
+													First(Fields!Pincode.Value, "CandidateDataSet")
+												</Value>
+                        <Style>
+                          <FontSize>7pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style />
+                  </Paragraph>
+                </Paragraphs>
+                <rd:DefaultName>Address</rd:DefaultName>
+                <Top>3cm</Top>
+                <Left>0.2cm</Left>
+                <Height>0.8cm</Height>
+                <Width>5.8cm</Width>
+                <ZIndex>7</ZIndex>
+                <Style />
+              </Textbox>
+            </ReportItems>
+            <KeepTogether>true</KeepTogether>
+            <Top>2cm</Top>
+            <Left>3.5cm</Left>
+            <Height>3.8cm</Height>
+            <Width>6cm</Width>
+            <ZIndex>2</ZIndex>
+            <Style>
+              <Border>
+                <Color>Navy</Color>
+                <Style>Solid</Style>
+              </Border>
+              <BackgroundColor>White</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Line Name="FooterLine">
+            <Top>6.19458cm</Top>
+            <Left>0.52361cm</Left>
+            <Height>0cm</Height>
+            <Width>9cm</Width>
+            <ZIndex>3</ZIndex>
+            <Style>
+              <Border>
+                <Color>Navy</Color>
+                <Style>Solid</Style>
+              </Border>
+            </Style>
+          </Line>
+          <Textbox Name="FooterText">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>This is a computer generated identity card. Please verify details from official records.</Value>
+                    <Style>
+                      <FontStyle>Italic</FontStyle>
+                      <FontSize>6pt</FontSize>
+                      <FontWeight>Normal</FontWeight>
+                      <Color>Gray</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <TextAlign>Center</TextAlign>
+                </Style>
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>FooterText</rd:DefaultName>
+            <Top>6.37097cm</Top>
+            <Left>0.52361cm</Left>
+            <Height>0.4cm</Height>
+            <Width>9cm</Width>
+            <ZIndex>4</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+            </Style>
+          </Textbox>
+        </ReportItems>
+        <Height>8cm</Height>
+        <Style />
+      </Body>
+      <Width>19.02229cm</Width>
+      <Page>
+        <PageHeader>
+          <Height>0.5cm</Height>
+          <PrintOnFirstPage>true</PrintOnFirstPage>
+          <PrintOnLastPage>true</PrintOnLastPage>
+          <ReportItems>
+            <Textbox Name="PageHeader">
+              <CanGrow>true</CanGrow>
+              <KeepTogether>true</KeepTogether>
+              <Paragraphs>
+                <Paragraph>
+                  <TextRuns>
+                    <TextRun>
+                      <Value />
+                      <Style />
+                    </TextRun>
+                  </TextRuns>
+                  <Style />
+                </Paragraph>
+              </Paragraphs>
+              <rd:DefaultName>PageHeader</rd:DefaultName>
+              <Top>0cm</Top>
+              <Left>0cm</Left>
+              <Height>0.5cm</Height>
+              <Width>10cm</Width>
+              <Style>
+                <Border>
+                  <Style>None</Style>
+                </Border>
+              </Style>
+            </Textbox>
+          </ReportItems>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+          </Style>
+        </PageHeader>
+        <PageFooter>
+          <Height>0.5cm</Height>
+          <PrintOnFirstPage>true</PrintOnFirstPage>
+          <PrintOnLastPage>true</PrintOnLastPage>
+          <ReportItems>
+            <Textbox Name="PageFooter">
+              <CanGrow>true</CanGrow>
+              <KeepTogether>true</KeepTogether>
+              <Paragraphs>
+                <Paragraph>
+                  <TextRuns>
+                    <TextRun>
+                      <Value />
+                      <Style />
+                    </TextRun>
+                  </TextRuns>
+                  <Style />
+                </Paragraph>
+              </Paragraphs>
+              <rd:DefaultName>PageFooter</rd:DefaultName>
+              <Top>0cm</Top>
+              <Left>0cm</Left>
+              <Height>0.5cm</Height>
+              <Width>10cm</Width>
+              <Style>
+                <Border>
+                  <Style>None</Style>
+                </Border>
+              </Style>
+            </Textbox>
+          </ReportItems>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+          </Style>
+        </PageFooter>
+        <LeftMargin>0.5cm</LeftMargin>
+        <RightMargin>0.5cm</RightMargin>
+        <TopMargin>0.5cm</TopMargin>
+        <BottomMargin>0.5cm</BottomMargin>
+        <ColumnSpacing>0.13cm</ColumnSpacing>
+        <Style />
+      </Page>
+    </ReportSection>
+  </ReportSections>
+  <ReportParameters>
+    <ReportParameter Name="InstituteName">
+      <DataType>String</DataType>
+      <DefaultValue>
+        <Values>
+          <Value>Industrial Training Institute</Value>
+        </Values>
+      </DefaultValue>
+      <Prompt>Institute Name</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="ReportTitle">
+      <DataType>String</DataType>
+      <DefaultValue>
+        <Values>
+          <Value>Student Identity Card</Value>
+        </Values>
+      </DefaultValue>
+      <Prompt>Report Title</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="AcademicYear">
+      <DataType>Integer</DataType>
+      <Nullable>true</Nullable>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="IssueDate">
+      <DataType>DateTime</DataType>
+      <Nullable>true</Nullable>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+  </ReportParameters>
+  <ReportParametersLayout>
+    <GridLayoutDefinition>
+      <NumberOfColumns>4</NumberOfColumns>
+      <NumberOfRows>1</NumberOfRows>
+      <CellDefinitions>
+        <CellDefinition>
+          <ColumnIndex>0</ColumnIndex>
+          <RowIndex>0</RowIndex>
+          <ParameterName>InstituteName</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>1</ColumnIndex>
+          <RowIndex>0</RowIndex>
+          <ParameterName>ReportTitle</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>2</ColumnIndex>
+          <RowIndex>0</RowIndex>
+          <ParameterName>AcademicYear</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>3</ColumnIndex>
+          <RowIndex>0</RowIndex>
+          <ParameterName>IssueDate</ParameterName>
+        </CellDefinition>
+      </CellDefinitions>
+    </GridLayoutDefinition>
+  </ReportParametersLayout>
+  <rd:ReportUnitType>Cm</rd:ReportUnitType>
+  <rd:ReportID>b042a599-fa12-4f5c-8a7a-1234567890ab</rd:ReportID>
+</Report>

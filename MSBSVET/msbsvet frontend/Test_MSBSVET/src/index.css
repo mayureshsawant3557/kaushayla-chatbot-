@@ -1,0 +1,76 @@
+/* index.css */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 25px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* DataTables Custom Styling */
+.dataTables_wrapper .dataTables_filter input {
+  @apply px-3 py-2 border border-gray-300 rounded-md text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500;
+}
+
+.dataTables_wrapper .dataTables_length select {
+  @apply px-2 py-1 border border-gray-300 rounded-md text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500;
+}
+
+.dataTables_wrapper .dt-buttons {
+  @apply mb-4;
+}
+
+.dataTables_wrapper .dt-button {
+  @apply px-3 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition-colors mr-2;
+}
+
+/* Column filter selects */
+th select.form-select {
+  @apply mt-2 px-2 py-1 border border-gray-300 rounded text-xs w-full focus:outline-none focus:ring-1 focus:ring-blue-500;
+}
+
+/* Responsive table styling */
+table.dataTable {
+  @apply border-collapse border border-gray-300;
+}
+
+table.dataTable thead th {
+  @apply border border-gray-300 px-2 py-2 bg-gray-100 text-left;
+}
+
+table.dataTable tbody td {
+  @apply border border-gray-300 px-2 py-2;
+}
+
+table.dataTable tbody tr:hover {
+  @apply bg-gray-50;
+}
+/* Add this to ensure DataTables works properly */
+.dataTables_wrapper {
+  font-family: inherit;
+}
+
+table.dataTable {
+  border-collapse: collapse !important;
+}
+
+/* Ensure responsive behavior */
+.dataTables_wrapper .dataTables_scroll {
+  overflow: auto;
+}
+
+.swal-full-popup {
+  max-width: none !important;
+  width: 100% !important;
+  padding: 0 !important;
+}
+
+.swal-full-html {
+  width: 100% !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}

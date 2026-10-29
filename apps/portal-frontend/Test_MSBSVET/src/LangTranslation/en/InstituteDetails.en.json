@@ -1,0 +1,17 @@
+{
+  "page": "Institutes Details",
+  "buttons": {
+    "proceedAI": "Add Affiliated Institutes",
+    "getDetails": "Get Institute Details"
+  },
+  "labels": {
+    "lblInstituteName1Heading": "Institute Name",
+    "lblPrevInstituteCodeHeading": "Institute Code",
+    "lblDistrictHeading": "District",
+    "lblTalukaHeading": "Taluka",
+    "lblCityHeading": "City / Village"
+  },
+  "headings": {
+    "details": "Affiliated Institutes"
+  }
+}

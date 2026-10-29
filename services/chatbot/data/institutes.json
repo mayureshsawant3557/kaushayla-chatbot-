@@ -1,0 +1,14 @@
+[
+  {
+    "name": "ABC Institute Mumbai",
+    "location": "mumbai",
+    "courses": ["Electrician"],
+    "url": "https://msbsvet.edu.in/Public/Institutes.aspx"
+  },
+  {
+    "name": "XYZ Technical Institute",
+    "location": "mumbai",
+    "courses": ["Fitter"],
+    "url": "https://msbsvet.edu.in/Public/Institutes.aspx"
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "page": "संस्था तपशील",
+  "buttons": {
+    "proceedAI": "संलग्न संस्था जोडा",
+    "getDetails": "संस्था तपशील मिळवा"
+  },
+  "labels": {
+    "lblInstituteName1Heading": "संस्था नाव",
+    "lblPrevInstituteCodeHeading": "संस्था कोड",
+    "lblDistrictHeading": "जिल्हा",
+    "lblTalukaHeading": "तालुका",
+    "lblCityHeading": "शहर / गाव"
+  }
+}

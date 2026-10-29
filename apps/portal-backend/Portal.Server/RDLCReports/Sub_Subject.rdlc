@@ -1,0 +1,293 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2008/01/reportdefinition" 
+        xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner" >
+   
+  <AutoRefresh>0</AutoRefresh>
+  <DataSources>
+    <DataSource Name="StatementMarks">
+      <ConnectionProperties>
+        <DataProvider>System.Data.DataSet</DataProvider>
+        <ConnectString>/* Local Connection */</ConnectString>
+      </ConnectionProperties>
+      <rd:DataSourceID>5dc40509-54f1-467f-a4f8-785803f6af7b</rd:DataSourceID>
+    </DataSource>
+  </DataSources>
+  <DataSets>
+    <DataSet Name="SubjectMarks">
+      <Query>
+        <DataSourceName>StatementMarks</DataSourceName>
+        <CommandText>/* Local Query */</CommandText>
+      </Query>
+      <Fields>
+        <Field Name="SubjectNameCode">
+          <DataField>SubjectNameCode</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="THPR">
+          <DataField>THPR</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Max">
+          <DataField>Max</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Min">
+          <DataField>Min</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Obt">
+          <DataField>Obt</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="GraceMarks">
+          <DataField>GraceMarks</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Result">
+          <DataField>Result</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="GraceMarksSymbol">
+          <DataField>GraceMarksSymbol</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ExaminationID">
+          <DataField>ExaminationID</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ApplicationID">
+          <DataField>ApplicationID</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="IsResultFresh">
+          <DataField>IsResultFresh</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+      </Fields>
+      <rd:DataSetInfo>
+        <rd:DataSetName>StatementMarks</rd:DataSetName>
+        <rd:SchemaPath>D:\Devendra\WorkingProjects\dvet2022\MSBVE\Admission.Web\RDLCReports\DataSet\StatementMarks.xsd</rd:SchemaPath>
+        <rd:TableName>SubjectMarks</rd:TableName>
+        <rd:TableAdapterFillMethod />
+        <rd:TableAdapterGetDataMethod />
+        <rd:TableAdapterName />
+      </rd:DataSetInfo>
+    </DataSet>
+    <DataSet Name="Candidate">
+      <Query>
+        <DataSourceName>StatementMarks</DataSourceName>
+        <CommandText>/* Local Query */</CommandText>
+      </Query>
+      <Fields>
+        <Field Name="CandidateName">
+          <DataField>CandidateName</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="MotherName">
+          <DataField>MotherName</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="DateofBirth">
+          <DataField>DateofBirth</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="CourseNameCode">
+          <DataField>CourseNameCode</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Duration">
+          <DataField>Duration</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ProfileNo">
+          <DataField>ProfileNo</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Examination">
+          <DataField>Examination</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ApplicationID">
+          <DataField>ApplicationID</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="InstituteNameCode">
+          <DataField>InstituteNameCode</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ResultStatus">
+          <DataField>ResultStatus</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Percentage">
+          <DataField>Percentage</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Grade">
+          <DataField>Grade</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ResultDate">
+          <DataField>ResultDate</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Photo">
+          <DataField>Photo</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Sign">
+          <DataField>Sign</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="QRcode">
+          <DataField>QRcode</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="MMYYY">
+          <DataField>MMYYY</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="SRNO">
+          <DataField>SRNO</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="BatchID">
+          <DataField>BatchID</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="BatchStartDate">
+          <DataField>BatchStartDate</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="BatchEndDate">
+          <DataField>BatchEndDate</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="CourseApprovedBy">
+          <DataField>CourseApprovedBy</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Sector">
+          <DataField>Sector</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="SubSector">
+          <DataField>SubSector</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="CourseType">
+          <DataField>CourseType</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="NSQFLevel">
+          <DataField>NSQFLevel</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="InstituteAddress">
+          <DataField>InstituteAddress</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="City">
+          <DataField>City</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="PinCode">
+          <DataField>PinCode</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Taluka">
+          <DataField>Taluka</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="District">
+          <DataField>District</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="StatementMarksName">
+          <DataField>StatementMarksName</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="StatementMarksDesignation">
+          <DataField>StatementMarksDesignation</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="StatementMarksSign">
+          <DataField>StatementMarksSign</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="CertificateMarksName">
+          <DataField>CertificateMarksName</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="CertificateMarksDesignation">
+          <DataField>CertificateMarksDesignation</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="CertificateMarksSign">
+          <DataField>CertificateMarksSign</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="GraceMarks">
+          <DataField>GraceMarks</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="GraceMarksSymbol">
+          <DataField>GraceMarksSymbol</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="TotalMarksMax">
+          <DataField>TotalMarksMax</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="TotalMarksMin">
+          <DataField>TotalMarksMin</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="TotalMarksObt">
+          <DataField>TotalMarksObt</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="IsResultFresh">
+          <DataField>IsResultFresh</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ApplicationIDDisplay">
+          <DataField>ApplicationIDDisplay</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ExaminationID">
+          <DataField>ExaminationID</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+      </Fields>
+      <rd:DataSetInfo>
+        <rd:DataSetName>StatementMarks</rd:DataSetName>
+        <rd:SchemaPath>D:\Devendra\WorkingProjects\dvet2022\MSBVE\Admission.Web\RDLCReports\DataSet\StatementMarks.xsd</rd:SchemaPath>
+        <rd:TableName>Candidate</rd:TableName>
+        <rd:TableAdapterFillMethod />
+        <rd:TableAdapterGetDataMethod />
+        <rd:TableAdapterName />
+      </rd:DataSetInfo>
+    </DataSet>
+  </DataSets>
+   
+  <ReportParameters>
+    <ReportParameter Name="ApplicationID">
+      <DataType>String</DataType>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="ExaminationID">
+      <DataType>String</DataType>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="IsResultFresh">
+      <DataType>String</DataType>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+  </ReportParameters>
+   
+  <rd:ReportUnitType>Inch</rd:ReportUnitType>
+  <rd:ReportID>68fd2a1d-8ee7-4379-ab32-a1b886bc3034</rd:ReportID>
+</Report>

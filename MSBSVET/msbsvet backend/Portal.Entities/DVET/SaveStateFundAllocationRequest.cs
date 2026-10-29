@@ -1,0 +1,16 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Portal.Entities.DVET
+{
+    public class SaveStateFundAllocationRequest
+    {
+        public long UserID { get; set; }
+
+        public List<StateFundAllocationEntity> Data { get; set; }
+
+    }
+}

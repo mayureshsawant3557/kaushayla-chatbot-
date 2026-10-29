@@ -1,0 +1,1 @@
+export const RazorApi = 'https://ifsc.razorpay.com/';

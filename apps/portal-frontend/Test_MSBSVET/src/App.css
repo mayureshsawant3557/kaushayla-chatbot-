@@ -1,0 +1,67 @@
+﻿@media print {
+
+    /* @page {
+        margin: 18mm 15mm 20mm 15mm;
+    }
+
+    * {
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
+    }
+
+    body * {
+        visibility: hidden;
+    }
+
+    #print-area,
+    #print-area * {
+        visibility: visible;
+    }
+
+    #print-area {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+    } */
+
+    /* Avoid breaking inside important blocks */
+    .avoid-break {
+        page-break-inside: avoid !important;
+        break-inside: avoid !important;
+    }
+
+    /* Force new page when needed */
+    .page-break {
+        page-break-before: always !important;
+        break-before: page !important;
+    }
+
+    /* Keep table rows intact */
+    tr {
+        page-break-inside: avoid !important;
+        break-inside: avoid !important;
+    }
+
+    thead {
+        display: table-header-group; /* repeat table header on next page */
+    }
+
+    tfoot {
+        display: table-footer-group;
+    }
+
+    .loader,
+    .loading-overlay {
+        display: none !important;
+    }
+     /* #print-area p,
+    #print-area li {
+        text-align: justify;
+    } */
+}
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

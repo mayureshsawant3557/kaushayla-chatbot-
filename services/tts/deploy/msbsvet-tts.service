@@ -1,0 +1,25 @@
+[Unit]
+Description=MSBSVET Somya IndicTTS Neural Voice Service
+After=network.target nvidia-persistenced.service
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=msbsvet
+Group=msbsvet
+WorkingDirectory=/opt/msbsvet-tts
+EnvironmentFile=/opt/msbsvet-tts/.env
+ExecStart=/opt/msbsvet-tts/venv/bin/python /opt/msbsvet-tts/server.py
+Restart=always
+RestartSec=5s
+LimitNOFILE=65535
+
+# Concurrency & Memory safety
+MemoryMax=8G
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=msbsvet-tts
+
+[Install]
+WantedBy=multi-user.target
+
